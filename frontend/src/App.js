@@ -1,4 +1,6 @@
 import './App.css';
+import Speakerspage from './Speakerspage';
+import './Speakerspage.css'
 import Navbar from './Navbar';
 import './WhIsUdgam';
 import Udgam from './WhIsUdgam';
@@ -11,10 +13,10 @@ function App() {
       <div className="HomePage">
       <Navbar />;
        <Udgam />;
+       <Speakerspage/>
        <Merchandise />;
        <Sponsers />;
       </div>
-      
     </div>
   );
 }
