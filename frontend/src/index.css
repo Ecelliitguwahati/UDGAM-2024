@@ -11,3 +11,226 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* .home{
+  display:grid;
+} */
+.Udgam{
+  max-width: 1440px;
+ height: 1067px;
+ top: 221px;
+ background: linear-gradient(180deg, #F5F2FF 13.32%, #F5F2FF 46.18%);
+
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 26px;
+  text-decoration: none;
+  padding: 6px;
+}
+.Menu{
+  margin-left: 30px;
+  justify-content: bottom;
+}
+ 
+.maskroup{
+max-width: 1440px;
+height: 1067px;
+top: 221px;
+left: -0px;
+
+}
+.udgRhom{
+  margin-left:-120px;
+max-width: 25.41px;
+height: 72px;
+top: 16px;
+left: 124px;
+color: #414141;
+
+}
+.BuyPass{
+  margin-right:-130px;
+}
+.UDGAM24Purp{
+  width: Hug (952px);
+  height: Hug (526.35px);
+  top: 1131px;
+  left: 244px;
+  gap: 64px;
+  
+
+} 
+
+/* .Vector140{
+width: 738px;
+height: 200.35px;
+left: 107px;
+border: 1px;
+justify-content: center;
+} */
+
+.whatis{
+  font-family: Grtsk;
+font-size: 49px;
+font-weight: 800;
+line-height: 42px;
+letter-spacing: -0.02em;
+text-align: center;
+color: rgba(65, 65, 65, 1);
+
+max-width: 1530px;
+height: 42px;
+top: 1068px;
+
+}
+.merch{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.merchContent{
+  flex-direction: column;
+  align-items: center;
+}
+.merchHead{
+  width: 1110px;
+  height: 97px;
+  margin-bottom: 0px;
+  font-style: Grtsk;
+font-size: 114px;
+font-weight: 600;
+line-height: 97px;
+letter-spacing: -0.02em;
+text-align: left;
+
+
+  
+
+text-align: center;
+color: rgba(65, 65, 65, 1);
+text-shadow:  4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.merchCraft{
+  max-width: 1254px;
+  height: 25px;
+  top: 2992.65px;
+  left: 1011.68px;
+  font-family: Aptos;
+font-size: 31px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: -0.02em;
+text-align: right;
+color: rgba(65, 65, 65, 1);
+}
+
+
+.tshirt{
+  width: 567px;
+  margin-top:-100px;
+display: flex;
+justify-content: center;
+
+height: 326.96px;
+  
+padding: 0px, 0px, 0px, 0px;
+angle: -12.42 deg;
+
+}
+
+.ts1{
+  margin-right: -230px;
+  height: 344.44px;
+  width: 516px;
+  angle: -2.67 deg; 
+  z-index: 10;
+  
+}
+.ts2{ 
+  margin-top:54px;
+  margin-right: -260px;
+  width: 427px;
+height: 284.26px;
+angle: -161.95 deg;
+}
+.ts3{
+  width: 418px;
+  margin-top:54px;
+   
+  height: 268.1px; 
+  angle: -15.03 deg;
+  margin-left:-20px;
+  }
+  .want{
+    display: flex;
+    justify-content: center;
+  }
+.wantMerch{
+  width:240px;
+height: 62px;
+top: 3367px;
+margin-left: 180px;
+text-align: center;
+font-size: 36px;
+padding: 10px, 21px, 10px, 21px;
+border-radius: 10px;
+color : rgba(245, 242, 255, 1);
+background: rgba(151, 121, 245, 1);
+box-shadow: 5px 4px 5.300000190734863px 0px rgba(0, 0, 0, 0.25);
+border-color: rgba(151, 121, 245, 1);
+ 
+}
+.Arrowhead{
+height: 147.86px;
+margin-left: 30px;
+angle: 31.69 deg;
+margin-top: -40px;
+ 
+}
+.sponText{
+  width: 679px;
+  height: 69px;
+  top: 3527px;
+  margin-left: 382px;
+  styleName: Grtsk - 76p Semibold;
+font-family: Grtsk;
+font-size: 76px;
+font-weight: 600;
+line-height: 65px;
+letter-spacing: -0.02em;
+text-align: center;
+color: rgba(65, 65, 65, 1);
+
+}
+.spon{
+  display: flex;
+}
+.coinpurple{
+  width: 377.52px;
+height: 212.35px;
+top: 3567.95px;
+left: 959.92px;
+angle: 24.66 deg;
+
+}
+.SponList1{
+  width: Fixed (1,162px);
+height: Hug (216px);
+top: 3644px;
+left: 141px;
+gap: 59px;
+
+}

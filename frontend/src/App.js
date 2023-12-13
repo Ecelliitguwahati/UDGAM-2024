@@ -1,12 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
 import Speakerspage from './Speakerspage';
 import './Speakerspage.css'
-
+import Navbar from './Navbar';
+import './WhIsUdgam';
+import Udgam from './WhIsUdgam';
+import Merchandise from './Merchandise';
+import Sponsers from './Spnsers';
+ 
 function App() {
   return (
     <div className="App">
-     <Speakerspage/>
+      <div className="HomePage">
+      <Navbar />;
+       <Udgam />;
+       <Speakerspage/>
+       <Merchandise />;
+       <Sponsers />;
+      </div>
     </div>
   );
 }
