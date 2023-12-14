@@ -1,8 +1,8 @@
 //import { Link } from "react-router-dom";
 //import React, { useState } from 'react';
-import logo from './Frame 3.png'
-import logo1 from './Udgam Rhombus.png';
-import Pass from './BuyPass.png';
+import logo from './assetsFront/Frame 3.png'
+import logo1 from './assetsFront/Udgam Rhombus.png';
+import Pass from './assetsFront/BuyPass.png';
 const Navbar = () => {
     
      

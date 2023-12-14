@@ -218,7 +218,7 @@ color: rgba(65, 65, 65, 1);
 .spon{
   display: flex;
 }
-.coinpurple{
+.coinpurple1{
   width: 377.52px;
 height: 212.35px;
 top: 3567.95px;
@@ -226,11 +226,96 @@ left: 959.92px;
 angle: 24.66 deg;
 
 }
-.SponList1{
+.sponList{
+  display:flex;
+  
+  /* width: Fixed (1,162px);
+height: Hug (216px);
+top: 3644px;
+left: 141px;
+gap: 59px; */
+
+}
+.rectFrame{
   width: Fixed (1,162px);
 height: Hug (216px);
 top: 3644px;
 left: 141px;
 gap: 59px;
+display: flex;
+justify-content: center;
+margin-bottom: -50px;
+margin-top: -80px;
+z-index: 10;
+/* position:relative; */
+}
+
+.sponFrame1{
+  width: 333px;
+height: 216px;
+border-radius: 22px;
+background: white;
+}
+
+.sponFrame2{
+  width: 363px;
+  height: 213px;
+  border-radius: 22px;  
+background: white;
+}
+.sponFrame3{
+  width: 348px;
+  height: 213px;
+  border-radius: 22px;
+ background: white;
+}
+/* .sponlist{
+  display: flex;
+} */
+
+.coinpurple2{
+  width: 268.1px;
+height: 250.8px;
+top: 3779.13px;
+left: 403.27px;
+angle: -81.82 deg;
+margin-left: -250px;
+margin-right: 70px;
+margin-top: -200px;
+z-index:1;
+position: absolute;
+}
+.allSpon{
+  width: 264px;
+height: 48px;
+top: 3902px;
+left: 567px;
+padding: 10px, 20px, 13px, 20px;
+border-radius: 10px;
+background: rgba(151, 121, 245, 1);
+box-shadow: 0px 4px 6.400000095367432px 0px rgba(0, 0, 0, 0.16);
+border-color:rgba(151, 121, 245, 1) ;
+color : rgba(245, 242, 255, 1);
+font-size: 26px;
+margin-top: 40px;
+margin-left: 40px;
+}
+
+.ArrowSpon{
+  width: 30px;
+  height: 46px;
+  top: 3903px;
+  left: 845px;
+  color: rgba(151, 121, 245, 1);
+  margin-bottom: -13px;
+  margin-top :80px;
+  margin-left: 40px;
+}
+.App{
+  /* background: linear-gradient(180deg, #F5F2FF 13.32%, #F5F2FF 46.18%); */
+  width: 1440px;
+height: 5134px;
+background: linear-gradient(180deg, #F5F2FF 13.32%, #F5F2FF 46.18%);
+
 
 }

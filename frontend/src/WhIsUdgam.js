@@ -1,5 +1,5 @@
-import maskgroup from './Mask group.png'; 
-import UDGAM24Purp from './UDGAM24Purp.png'; 
+import maskgroup from './assetsFront/Mask group.png'; 
+import UDGAM24Purp from './assetsFront/UDGAM24Purp.png'; 
 
 const Udgam = () => {
     return ( 
