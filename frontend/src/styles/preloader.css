@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'Grtsk';
+    src: url('../fonts/TRYGrtsk-Bold-BF642655237526d.ttf') format('truetype');
+}
+
+
+.preloader{
+    font-family: sans-serif;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.backgroundvideo {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    z-index: 1;
+    object-fit: fill;
+    
+    
+  }
+.UDGAM{
+    position: relative;
+    top: -80px;  
+    z-index: 0;
+    margin-left: 150px;
+    padding: 0;
+    height: 400px;
+    width: 1200px;
+    border: none;
+    margin-bottom: 0;
+}
+.loading{
+    height: 25px;
+    position: relative;
+    
+    padding: 0;
+    z-index: 3;
+    top: -100px;
+    border-radius: 10px;
+    border:5px solid #9779F5;
+    background-color: white;
+    margin-left: 420px;
+    margin-bottom: 0;
+    /* transition: 0.2s ease-out; */
+    /* display: None; */
+}
+.ProgressBar{
+    height: 23px;
+    margin-top: 1px;
+    margin-left: 1px;
+    width: 0px;
+    border-radius: 5px;
+    border: 0 ;
+    
+
+    background-color: #9779F5;
+     
+}
+.count{
+    font-family: 'Grtsk';
+    font-size: 49px;
+    font-weight: 900;
+    position: relative;
+    top: -150px;
+    font-size: 50px;
+    /* left: 1020px; */
+    color: #9779F5;
+    font-weight: 900;
+    margin-left: 1020px;
+    /* transform: translateY((-15px)); */
+    /* display: None; */
+
+}
+.screw1,.screw2{
+    position: relative;
+    z-index: 1;
+    height: 100px;
+    width: 100px;
+}
+.screw1{
+    top: -230px;
+    left: 220px;
+}
+.screw2{
+    top: -420px;
+    left: 950px;
+    filter: blur(1px);
+}
+.keyboard{
+    position: relative;
+    z-index: 1;
+    height: 140px;
+    width: 180px;
+    rotate:-15deg;
+    top: -80px;
+    left: -150px;
+    filter: blur(0.5px);
+}
+.arrow{
+    position: relative;
+    z-index: 1;
+    height: 100px;
+    width: 100px;
+    filter: blur(1px);
+    opacity: 0.8;
+    left: 180px;
+    top: -430px;
+}
+
+.box1,.box2,.box3,.box4{
+    position: relative;
+    border: 3px solid #9779F5;
+    border-radius: 10px;
+    padding-top: 0;
+    padding: 12px;
+    z-index: 4;
+
+}
+.box1{
+    height: 67px;
+    width: 300px;
+    top: -520px;
+    left: 100px;
+}
+.box2{
+    height: 100px;
+    width: 250px;
+    top: -450px;
+    left: 100px;
+}
+.box3{
+    height: 70px;
+    width: 300px;
+    top: -700px;
+    left: 1100px;
+}
+.box4{
+    height: 120px;
+    width: 200px;
+    top: -650px;
+    left: 1197px;
+}

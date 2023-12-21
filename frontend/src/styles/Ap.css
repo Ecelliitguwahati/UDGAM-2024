@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+.app-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.question-container {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 330px;
+}
+
+.question-box {
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: start;
+    border: 1px solid #ccc;
+    height: 130px;
+    background: linear-gradient(180deg, rgba(153, 174, 249, 0.74) 0%, rgba(153, 174, 249, 0.50) 100%);
+}
+
+.question-box.selected {
+    background: linear-gradient(205deg, #9779F5 17.15%, rgba(245, 242, 255, 0.00) 311.69%);
+}
+
+.answer-box {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 30vw;
+    border-radius: 20px;
+    height: 300px;
+    margin-left: 1vw;
+
+    color: #F5F2FF;
+
+}
+
+.FAQ {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.footer {
+    border-radius: 17px 17px 25.25px 25.4px;
+    background: linear-gradient(356deg, #9779F5 3.48%, rgba(151, 121, 245, 0.09) 313.8%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15vw;
+}
+.left{
+    display: flex;
+    align-items: center;
+    width: 19vw;
+    justify-content: space-between;
+    color: #F5F2FF;
+    text-align: start;
+}
+.right{
+    text-align: end;
+}
+.images{
+    margin-top: 10px;
+}
+.lower{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15vw;
+}
