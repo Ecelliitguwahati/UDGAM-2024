@@ -1,6 +1,6 @@
 import React from 'react';
-import leftclick from './images/Vector 67.png';
-import rightclick from './images/Vector 67 (1).png';
+import leftclick from '../images/Vector 67.png';
+import rightclick from '../images/Vector 67 (1).png';
 
 
 const Speakercard = (props) => {

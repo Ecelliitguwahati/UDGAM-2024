@@ -1,7 +1,7 @@
-import ts1 from './assetsFront/Group 34571.png';
-import ts2 from './assetsFront/Isolated_back_white_hoodie 1.png';
-import ts3 from './assetsFront/Isolated_black_t-shirt_front 2.png';
-import ArrowHead from './assetsFront/Arrowhead Blue.png';
+import ts1 from '../images/Group 34571.png';
+import ts2 from '../images/Isolated_back_white_hoodie 1.png';
+import ts3 from '../images/Isolated_black_t-shirt_front 2.png';
+import ArrowHead from '../images/Arrowhead Blue.png';
 const Merchandise = () => {
     return (
         <div className="merch">

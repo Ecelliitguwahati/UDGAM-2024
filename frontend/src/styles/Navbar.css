@@ -1,0 +1,43 @@
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  width: 95vw;
+  justify-content: space-between;
+  max-width: 100vw;
+  padding: 1vw 4vw;
+}
+
+.navbar a {
+
+  text-decoration: none;
+  padding: 6px;
+  margin: 0 3vw;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.maskroup {
+
+  height: 1067px;
+  top: 221px;
+  left: -0px;
+
+}
+
+.udgRhom {
+
+  max-width: 25.41px;
+  height: 72px;
+  top: 16px;
+  left: 124px;
+  color: #414141;
+
+}

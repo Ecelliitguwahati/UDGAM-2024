@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'Grtsk';
+  src: url('./fonts/TRYGrtsk-Bold-BF642655237526d.ttf') format('truetype');
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,73 +9,41 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+
+
+
+}
+
+body::-webkit-scrollbar {
+  display: none;
+  /* for Chrome, Safari, and Opera */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
 /* .home{
   display:grid;
 } */
-.Udgam{
-  max-width: 1440px;
- height: 1067px;
- top: 221px;
- background: linear-gradient(180deg, #F5F2FF 13.32%, #F5F2FF 46.18%);
+.Udgam {
+
+  height: 1067px;
+  top: 221px;
 
 }
 
-.navbar {
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  max-width: 1100px;
-  margin: 0 auto;
-  border-bottom: 1px solid #f2f2f2;
-}
-
-.navbar .links {
-  margin-left: auto;
-}
-.navbar a {
-  margin-left: 26px;
-  text-decoration: none;
-  padding: 6px;
-}
-.Menu{
-  margin-left: 30px;
-  justify-content: bottom;
-}
- 
-.maskroup{
-max-width: 1440px;
-height: 1067px;
-top: 221px;
-left: -0px;
-
-}
-.udgRhom{
-  margin-left:-120px;
-max-width: 25.41px;
-height: 72px;
-top: 16px;
-left: 124px;
-color: #414141;
-
-}
-.BuyPass{
-  margin-right:-130px;
-}
-.UDGAM24Purp{
+.UDGAM24Purp {
   width: Hug (952px);
   height: Hug (526.35px);
   top: 1131px;
   left: 244px;
   gap: 64px;
-  
 
-} 
+
+}
 
 /* .Vector140{
 width: 738px;
@@ -81,241 +53,185 @@ border: 1px;
 justify-content: center;
 } */
 
-.whatis{
-  font-family: Grtsk;
-font-size: 49px;
-font-weight: 800;
-line-height: 42px;
-letter-spacing: -0.02em;
-text-align: center;
-color: rgba(65, 65, 65, 1);
+.whatis {
+  font-family: 'Grtsk';
+  font-size: 49px;
+  font-weight: 800;
+  line-height: 42px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(65, 65, 65, 1);
 
-max-width: 1530px;
-height: 42px;
-top: 1068px;
+  max-width: 1530px;
+  height: 42px;
+  top: 1068px;
 
 }
-.merch{
-  display:flex;
+
+.merch {
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
-.merchContent{
+
+.merchContent {
   flex-direction: column;
   align-items: center;
 }
-.merchHead{
+
+.merchHead {
   width: 1110px;
   height: 97px;
   margin-bottom: 0px;
   font-style: Grtsk;
-font-size: 114px;
-font-weight: 600;
-line-height: 97px;
-letter-spacing: -0.02em;
-text-align: left;
+  font-size: 114px;
+  font-weight: 600;
+  line-height: 97px;
+  letter-spacing: -0.02em;
+  text-align: left;
 
 
-  
 
-text-align: center;
-color: rgba(65, 65, 65, 1);
-text-shadow:  4px 4px rgba(0, 0, 0, 0.25);
+
+  text-align: center;
+  color: rgba(65, 65, 65, 1);
+  text-shadow: 4px 4px rgba(0, 0, 0, 0.25);
 
 }
-.merchCraft{
+
+.merchCraft {
   max-width: 1254px;
   height: 25px;
   top: 2992.65px;
   left: 1011.68px;
   font-family: Aptos;
-font-size: 31px;
-font-weight: 400;
-line-height: 25px;
-letter-spacing: -0.02em;
-text-align: right;
-color: rgba(65, 65, 65, 1);
+  font-size: 31px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: -0.02em;
+  text-align: right;
+  color: rgba(65, 65, 65, 1);
 }
 
 
-.tshirt{
+.tshirt {
   width: 567px;
-  margin-top:-100px;
-display: flex;
-justify-content: center;
+  margin-top: -100px;
+  display: flex;
+  justify-content: center;
 
-height: 326.96px;
-  
-padding: 0px, 0px, 0px, 0px;
-angle: -12.42 deg;
+  height: 326.96px;
+
+  padding: 0px, 0px, 0px, 0px;
+  angle: -12.42 deg;
 
 }
 
-.ts1{
+.ts1 {
   margin-right: -230px;
   height: 344.44px;
   width: 516px;
-  angle: -2.67 deg; 
+  angle: -2.67 deg;
   z-index: 10;
-  
+
 }
-.ts2{ 
-  margin-top:54px;
+
+.ts2 {
+  margin-top: 54px;
   margin-right: -260px;
   width: 427px;
-height: 284.26px;
-angle: -161.95 deg;
+  height: 284.26px;
+  angle: -161.95 deg;
 }
-.ts3{
+
+.ts3 {
   width: 418px;
-  margin-top:54px;
-   
-  height: 268.1px; 
+  margin-top: 54px;
+
+  height: 268.1px;
   angle: -15.03 deg;
-  margin-left:-20px;
-  }
-  .want{
-    display: flex;
-    justify-content: center;
-  }
-.wantMerch{
-  width:240px;
-height: 62px;
-top: 3367px;
-margin-left: 180px;
-text-align: center;
-font-size: 36px;
-padding: 10px, 21px, 10px, 21px;
-border-radius: 10px;
-color : rgba(245, 242, 255, 1);
-background: rgba(151, 121, 245, 1);
-box-shadow: 5px 4px 5.300000190734863px 0px rgba(0, 0, 0, 0.25);
-border-color: rgba(151, 121, 245, 1);
- 
+  margin-left: -20px;
 }
-.Arrowhead{
-height: 147.86px;
-margin-left: 30px;
-angle: 31.69 deg;
-margin-top: -40px;
- 
+
+.want {
+  display: flex;
+  justify-content: center;
 }
-.sponText{
+
+.wantMerch {
+  width: 240px;
+  height: 62px;
+  top: 3367px;
+  margin-left: 180px;
+  text-align: center;
+  font-size: 36px;
+  padding: 10px, 21px, 10px, 21px;
+  border-radius: 10px;
+  color: rgba(245, 242, 255, 1);
+  background: rgba(151, 121, 245, 1);
+  box-shadow: 5px 4px 5.300000190734863px 0px rgba(0, 0, 0, 0.25);
+  border-color: rgba(151, 121, 245, 1);
+
+}
+
+.Arrowhead {
+  height: 147.86px;
+  margin-left: 30px;
+  angle: 31.69 deg;
+  margin-top: -40px;
+
+}
+
+.sponText {
   width: 679px;
   height: 69px;
   top: 3527px;
   margin-left: 382px;
   styleName: Grtsk - 76p Semibold;
-font-family: Grtsk;
-font-size: 76px;
-font-weight: 600;
-line-height: 65px;
-letter-spacing: -0.02em;
-text-align: center;
-color: rgba(65, 65, 65, 1);
+  font-family: Grtsk;
+  font-size: 76px;
+  font-weight: 600;
+  line-height: 65px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(65, 65, 65, 1);
 
 }
-.spon{
+
+.spon {
   display: flex;
 }
-.coinpurple1{
+
+.coinpurple {
   width: 377.52px;
-height: 212.35px;
-top: 3567.95px;
-left: 959.92px;
-angle: 24.66 deg;
+  height: 212.35px;
+  top: 3567.95px;
+  left: 959.92px;
+  angle: 24.66 deg;
 
 }
-.sponList{
-  display:flex;
-  
-  /* width: Fixed (1,162px);
-height: Hug (216px);
-top: 3644px;
-left: 141px;
-gap: 59px; */
+
+.SponList1 {
+  width: Fixed (1, 162px);
+  height: Hug (216px);
+  top: 3644px;
+  left: 141px;
+  gap: 59px;
 
 }
-.rectFrame{
-  width: Fixed (1,162px);
-height: Hug (216px);
-top: 3644px;
-left: 141px;
-gap: 59px;
-display: flex;
-justify-content: center;
-margin-bottom: -50px;
-margin-top: -80px;
-z-index: 10;
-/* position:relative; */
+
+.horizontal-scroll-container {
+  overflow-x: auto;
+  white-space: nowrap;
 }
 
-.sponFrame1{
-  width: 333px;
-height: 216px;
-border-radius: 22px;
-background: white;
+.speakers-list {
+  display: inline-flex;
+  transition: transform 0.3s ease-in-out;
 }
 
-.sponFrame2{
-  width: 363px;
-  height: 213px;
-  border-radius: 22px;  
-background: white;
-}
-.sponFrame3{
-  width: 348px;
-  height: 213px;
-  border-radius: 22px;
- background: white;
-}
-/* .sponlist{
-  display: flex;
-} */
-
-.coinpurple2{
-  width: 268.1px;
-height: 250.8px;
-top: 3779.13px;
-left: 403.27px;
-angle: -81.82 deg;
-margin-left: -250px;
-margin-right: 70px;
-margin-top: -200px;
-z-index:1;
-position: absolute;
-}
-.allSpon{
-  width: 264px;
-height: 48px;
-top: 3902px;
-left: 567px;
-padding: 10px, 20px, 13px, 20px;
-border-radius: 10px;
-background: rgba(151, 121, 245, 1);
-box-shadow: 0px 4px 6.400000095367432px 0px rgba(0, 0, 0, 0.16);
-border-color:rgba(151, 121, 245, 1) ;
-color : rgba(245, 242, 255, 1);
-font-size: 26px;
-margin-top: 40px;
-margin-left: 40px;
-}
-
-.ArrowSpon{
-  width: 30px;
-  height: 46px;
-  top: 3903px;
-  left: 845px;
-  color: rgba(151, 121, 245, 1);
-  margin-bottom: -13px;
-  margin-top :80px;
-  margin-left: 40px;
-}
-.App{
-  /* background: linear-gradient(180deg, #F5F2FF 13.32%, #F5F2FF 46.18%); */
-  width: 1440px;
-height: 5134px;
-background: linear-gradient(180deg, #F5F2FF 13.32%, #F5F2FF 46.18%);
-
-
+.speaker-item {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
 }

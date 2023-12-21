@@ -1,0 +1,22 @@
+.UDGAM24Purp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.UDGAM24Purp p {
+    height: 300px;
+    width: 70vw;
+    padding: 2vw 1vw;
+}
+
+.whIsUdg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+.maskgroup img {
+    width: 100vw;
+}
