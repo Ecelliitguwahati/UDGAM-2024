@@ -1,12 +1,16 @@
-@font-face {
-  font-family: 'Grtsk';
+/* @font-face {
+  font-family: 'Bold_Grtsk';
   src: url('./fonts/TRYGrtsk-Bold-BF642655237526d.ttf') format('truetype');
+} */
+@font-face {
+  font-family: 'GRTSK';
+  src: url('./fonts/GRTSK\ font.ttf');
 }
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font: inherit;
+  font-family: GRTSK;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
