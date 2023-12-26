@@ -239,3 +239,201 @@ justify-content: center;
   border: 1px solid #ccc;
   margin-right: 10px;
 }
+/* The following media queries for max height is to eliminate any excess white space at bottom */
+@media screen and (max-height : 933px) {
+  .HomePage {
+    height: 240vh;
+  }
+}
+@media screen and (max-height : 900px) {
+  .HomePage {
+    height: 250vh;
+  }
+}
+@media screen and (max-height : 850px) {
+  .HomePage {
+    height: 270vh;
+  }
+}
+@media screen and (max-height : 836px) {
+  .HomePage {
+    height: 280vh;
+  }
+}
+@media screen and (max-height : 812px) {
+  .HomePage {
+    height: 290vh;
+  }
+}
+/* The following media query for max width is for element positioning, works well till 370px */
+
+@media screen and (max-width : 435px) {
+  .preloader{
+    position: relative;
+    scale: 1 0.5;
+    top: -18vh;
+  }
+  /* don't know the placement of box elements */
+  .box1 {
+    display: none !important;
+  }
+  .box2 {
+    display: none !important;
+  }
+  .box3 {
+    display: none !important;
+  }
+  .box4 {
+    display: none !important;
+  }
+  .navbar{
+    top: 2vh;
+    position: fixed !important;
+    scale: 1 !important;
+    height: 19px;
+
+    justify-content: space-evenly !important;
+  }
+  .links {
+    width: 50vw;
+    font-size: 6px;
+    position: relative;
+    /* top: -22px; */
+    right: 60px;
+  }
+  .udgRhom {
+    position: relative;
+    top: 3vh !important;
+    left: 0px !important;
+
+  }
+  .udgRhom img {
+    position: static;
+    width: 2.5vw;
+    top: 5vh;
+  }
+  .BuyPass img{
+    width: 10vw;
+  }
+  .whIsUdg {
+    position: relative;
+    height: 0vh;
+    top: -38vh;
+  }
+  .UDGAM24Purp {
+    height: 10vh;
+  }
+  .UDGAM24Purp p{
+    font-size: 8px;
+    position: relative;
+    top: -8vh;
+    width: 80vw !important;
+  }
+  .UDGAM24Purp img{
+    max-width: 60vw;
+  }
+  .whatis{
+    font-size: 20px;
+    position: relative;
+    top: 2.5vh;
+  }
+  .speakdiv1{
+    position: relative;
+    top: -22vh;
+    scale: 0.38 0.38;
+  }
+  .pastspeakersection{
+    position: relative;
+    top: -58vh;
+    scale: 0.38 0.38;
+  }
+  .pastspeakersheading {
+    left: 65vw;
+    position: relative;
+  }
+  
+  .merch{
+    position: relative;
+    top: -88vh;
+    scale: 0.4;
+  }
+  .merchCraft{
+    position: relative;
+    /* right: 33vw; */
+    top: 0%;
+    left: -11%;
+  }
+  .Sponsers{
+    top: -128vh;
+    scale: 0.42 0.4;
+    position: relative;
+  }
+  .coinpurple{
+    position: relative; 
+    top: 0%;
+    left: -11%;
+  }
+  .coin{
+    position: relative; 
+    top: 5%;
+    left: -11%;
+  }
+  .samosa{
+    scale: 2 1.5;
+    position: relative; 
+    top: 0%;
+    left: 4vw;
+  }
+  .SponList{
+    width: 150vw !important;
+    max-width: 150vw !important;
+  }
+  .spname{
+    width: 45vw !important;
+  }
+  .FAQ{
+    scale: 1.2 1;
+    top: -143vh;
+    left: -10%;
+    position: relative;
+  }
+  .app-container{
+    scale: 1.4 0.6;
+    top: -151vh;
+    position: relative;
+    font-size: 13px;
+  }
+  .footer{
+    scale: 2 1;
+    top: -158vh;
+    position: relative;
+  }
+  .footer img{
+    scale: 0.5 1;
+    left: 3vw;
+    position: relative;
+  }
+  .name{
+    font-size: 10px;
+    top: -5vh;
+    /* right: 0vw; */
+    position: relative;
+  }
+  .upper{
+    font-size: 10px;
+    top: 11vh;
+    right: 11vw;
+    position: relative;
+  }
+  .images{
+    scale: 0.55 1;
+    top: 2vh;
+    right: 3vw;
+    position: relative;
+  }
+  .lower{
+    scale: 1 1;
+    top: -158vh;
+    position: relative;
+  }
+}
