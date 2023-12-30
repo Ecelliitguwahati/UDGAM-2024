@@ -1,0 +1,142 @@
+
+
+.eventhead{
+    position: relative;
+    margin-top: 3rem;
+    font-family: 'Grtsk';
+    font-size: 76px;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.eventgrid{
+    
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 2rem;
+    margin-left: 10rem;
+    margin-right: 12rem;
+    
+}
+
+.eventgrid div{
+    height: 474px;
+    width: 385px;
+    background-color:rgba(206, 197, 236, 0.5);
+}
+.eventimg{
+    height: 24rem;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    
+   
+}
+.tags{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+   
+}
+.eventname{
+    position: relative;
+    z-index: 2;
+    font-size: 49px;
+    font-family: "Grtsk";
+    font-weight: 700;
+    color: rgba(91, 91, 91, 1);
+    margin: 0;
+    padding: 0;
+    background-color:rgba(254, 254, 254, 0.5); 
+    width: 100%;
+    text-align: center;
+    top: 5rem;
+      
+}
+.eventdesc1{
+    position: relative;
+    z-index: 2;
+    font-size: 19px;
+    font-family: "Grtsk";
+    font-weight: 400;
+    color:  rgba(65, 65, 65, 1);
+    margin: 0;
+    top: 5rem;
+    background-color:rgba(254, 254, 254, 0.5); 
+    width: 100%;
+    text-align: center;
+}
+.eventdesc2{
+    
+    position: relative;
+    z-index:3;
+    font-size: 13px;
+  
+    font-family: "Grtsk";
+    font-weight: 400;
+    margin: 0;
+    
+    top: 7rem;
+    width: 100%;
+    text-align: left;
+    opacity: 0;
+}
+.register{
+    
+    position: relative;
+    z-index: 3;
+    text-decoration: none;
+    display: inline-block;
+    left: 6rem;
+    top: 7rem;
+    text-align: center;
+    line-height: 30px;
+    background-color: rgba(105, 57, 255, 1);
+    height: 34px;
+    width: 154px;
+    color: white;
+    font-size: 19px;
+    font-family: 'Grtsk';
+    opacity: 0;
+}
+.eventgrid div:hover {
+    filter: blur(4px);
+}
+
+.eventgrid:hover div:not(:hover) {
+    filter: blur(4px);
+}
+.eventgrid div:hover,
+.eventgrid:hover div:hover {
+    filter: blur(0);
+}
+.headset{
+    position: relative;
+    bottom: -40rem;
+    right: -45rem;
+}
+.puzzle1{
+    position: relative;
+    bottom: -44rem;
+    right: 51rem;
+}
+.screwpurp{
+    position: relative;
+    bottom: 61rem;
+    right: -12rem;
+    filter:blur(2px);
+}
+.screwblue{
+    position: relative;
+    bottom: 65rem;
+    right: -55rem;
+}
+/* .scene1{
+    position: relative;
+    right: -57.5rem;
+    bottom: 72rem;
+    z-index: -1;
+} */
