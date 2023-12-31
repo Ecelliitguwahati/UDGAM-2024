@@ -1,54 +1,30 @@
-import React, { useState, useEffect } from 'react';
+
 import './App.css';
-import Speakerspage from './components/Speakerspage';
-import './styles/Speakerspage.css'
+
 import Navbar from './components/Navbar';
-import './components/WhIsUdgam';
-import Udgam from './components/WhIsUdgam';
-import Merchandise from './components/Merchandise';
-import Sponsers from './components/Spnsers';
-import FAQs from './components/FAQs';
-import Footer from './components/Footer';
-import { Preloader } from './components/preloader';
 
+import {Route,Routes} from "react-router-dom"
+import {Schedule} from "./components/navbar_pages/schedule"
+import {Events} from "./components/navbar_pages/events"
+import {Merch} from "./components/navbar_pages/merch"
+import {About_us} from "./components/navbar_pages/about_us"
+import {BuyPass} from "./components/navbar_pages/buy_pass"
+import {Home} from "./components/homepage"
 function App() {
-  const [animationComplete, setAnimationComplete] = useState(false);
-
-  useEffect(() => {
-
-    // Disable scrolling during animation
-    document.body.style.overflow = 'hidden';
-
-    const animationTimeout = setTimeout(() => {
-      setAnimationComplete(true);
-      // Enable scrolling after animation is complete
-      document.body.style.overflow = 'visible';
-    }, 9700);
-
-    // Clear the timeout to prevent memory leaks
-    return () => {
-      clearTimeout(animationTimeout);
-      // Ensure scrolling is re-enabled in case the component unmounts before the animation completes
-      document.body.style.overflow = 'visible';
-    };
-  }, []);
+  
 
   return (
-    <div className={`App ${animationComplete ? 'showContent' : 'hideContent'}`}>
-      <div className="HomePage" style={{ display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
-        <Navbar setAnimationComplete={setAnimationComplete} />
-        <Preloader setAnimationComplete={setAnimationComplete} />
-        {animationComplete && (
-          <>
-            <Udgam />
-            <Speakerspage />
-            <Merchandise />
-            <Sponsers />
-            <FAQs />
-            <Footer />
-          </>
-        )}
-      </div>
+    <div className="App">
+
+        <Navbar/>
+        <Routes>
+          <Route path="/" element={<Home/>} />
+          <Route path="/Schedule" element={<Schedule/>} />
+          <Route path="/Events" element={<Events/>} />
+          <Route path="/Merch" element={<Merch/>} />
+          <Route path="/About_us" element={<About_us/>} />
+          <Route path="/BuyPass" element={<BuyPass/>} />
+        </Routes>
     </div>
   );
 }
