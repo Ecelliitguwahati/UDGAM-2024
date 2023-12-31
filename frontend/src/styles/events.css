@@ -11,7 +11,7 @@
 .eventgrid{
     
     display: grid;
-    height: 100vh;
+    /* height: 100vh; */
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr; 
     gap: 2rem;
@@ -70,7 +70,7 @@
     text-align: center;
 }
 .eventdesc2{
-    
+    display: none;
     position: relative;
     z-index:3;
     font-size: 13px;
@@ -82,14 +82,13 @@
     top: 7rem;
     width: 100%;
     text-align: left;
-    opacity: 0;
+    /* opacity: 0; */
 }
 .register{
-    
+    display: none;
     position: relative;
     z-index: 3;
     text-decoration: none;
-    display: inline-block;
     left: 6rem;
     top: 7rem;
     text-align: center;
@@ -100,7 +99,7 @@
     color: white;
     font-size: 19px;
     font-family: 'Grtsk';
-    opacity: 0;
+    /* opacity: 0; */
 }
 .eventgrid div:hover {
     filter: blur(4px);

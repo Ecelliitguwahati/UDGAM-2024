@@ -42,21 +42,27 @@
 
 
 .footer {
-    border-radius: 17px 17px 25.25px 25.4px;
     background: linear-gradient(356deg, #9779F5 3.48%, rgba(151, 121, 245, 0.09) 313.8%);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 15vw;
+    margin-top: 20vh;
 }
 .left{
     display: flex;
     align-items: center;
-    width: 19vw;
-    justify-content: space-between;
+    width: 40vw;
+    justify-content: start;
     color: #F5F2FF;
     text-align: start;
 }
+
+.name{
+    font-size: 20px;
+    padding: 30px;
+}
+
 .right{
     text-align: end;
     color: white;
@@ -65,8 +71,23 @@
 .images{
     margin-top: 10px;
 }
+
+.images img{
+    width: 50px;
+}
+
+.upper{
+    padding-bottom: 10px;
+}
+
 .lower{
     display: flex;
     justify-content: space-between;
-    padding: 10px 15vw;
+    padding: 12px 15vw;
+}
+
+.lower a{
+    color: #9779F5;
+    text-decoration: none;
+    font-size: 12px;
 }

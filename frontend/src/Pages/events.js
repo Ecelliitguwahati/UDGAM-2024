@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react';
 import gsap from 'gsap';
-import "../../styles/events.css";
-import mike from "../../images/Mike1.svg";
-import headset from "../../images/VR Headset Purp.svg";
-import puzzle1 from "../../images/Puzzle1 Blue.svg";
-import screwpurp from "../../images/Screw Purp.svg";
-import screwblue from "../../images/Screw Blue.svg";
-import scene1 from "../../images/Scene 10031 2.svg";
+import "../styles/events.css";
+import mike from "../images/Mike1.svg";
+// import headset from "../images/VR Headset Purp.svg";
+// import puzzle1 from "../images/Puzzle1 Blue.svg";
+// import screwpurp from "../images/Screw Purp.svg";
+// import screwblue from "../images/Screw Blue.svg";
+// import scene1 from "../images/Scene 10031 2.svg";
 export const Events = () => {
     useEffect(() => {
         const tags = document.querySelectorAll('.tags');
@@ -18,17 +18,38 @@ export const Events = () => {
                 .to(tag.querySelector('.eventname'), { y: 10, fontSize: '25px', duration: 0.5, backgroundColor: 'rgba(206, 197, 236, 0)' , ease: 'ease' }, '-=0.5')
                 .to(tag.querySelector('.eventdesc1'), { y: 10, fontSize: '15px', duration: 0.5, backgroundColor: 'rgba(206, 197, 236, 0)' , ease: 'ease' }, '-=0.5')
                 .to(tag, { background: 'linear-gradient(to bottom left, rgba(178, 156, 243, 1),rgba(252, 251, 255, 1))', duration: 0.5 }, '-=0.5')
-                .to(tag.querySelector('.eventdesc2'), { opacity: 1, duration: 0.5 }, '-=0.5s')
-                .to(tag.querySelector('.register'), { opacity: 1, duration: 0.5 }, '-=0.5s');
+                // .to(tag.querySelector('.eventdesc2'), { opacity: 1, duration: 0.5 }, '-=0.5s')
+                // .to(tag.querySelector('.register'), { opacity: 1, duration: 0.5 }, '-=0.5s');
 
 
 
-            tag.addEventListener('mouseenter', () => tl.play());
-            tag.addEventListener('mouseleave', () => tl.reverse(0));
+            tag.addEventListener('mouseenter', () => {
+                tl.play();
+                tag.querySelector('.eventdesc2').style.display = 'block';
+                tag.querySelector('.register').style.display = 'block';
+            }
+            
+            );
+            tag.addEventListener('mouseleave', () => {
+                tl.reverse(0);
+                tag.querySelector('.eventdesc2').style.display = 'none';
+                tag.querySelector('.register').style.display = 'none';
+            }
+            );
 
             return () => {
-                tag.removeEventListener('mouseenter', () => tl.play());
-                tag.removeEventListener('mouseleave', () => tl.reverse(0));
+                tag.removeEventListener('mouseenter', () => {
+                    tl.play();
+                    tag.querySelector('.eventdesc2').style.display = 'block';
+                    tag.querySelector('.register').style.display = 'block';
+                }
+                );
+                tag.removeEventListener(() => {
+                    tl.reverse(0);
+                    tag.querySelector('.eventdesc2').style.display = 'none';
+                    tag.querySelector('.register').style.display = 'none';
+                }
+                );
             };
         });
     }, []);
@@ -102,10 +123,10 @@ export const Events = () => {
                     <a href="/" alt="" className='register'>Register</a>
                 </div>
             </div>
-            <img src={screwpurp} alt="screwpurp" className="screwpurp" />
+            {/* <img src={screwpurp} alt="screwpurp" className="screwpurp" />
             <img src={screwblue} alt="screblue" className="screwblue" />
             <img src={headset} alt="headset" className="headset" />
-            <img src={puzzle1} alt="puzzle1" className="puzzle1" />
+            <img src={puzzle1} alt="puzzle1" className="puzzle1" /> */}
             {/* <img src={scene1} alt="scene1" className="scene1" /> */}
 
 

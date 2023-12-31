@@ -10,11 +10,11 @@ import anupam from '../images/anupam.png'
 const Speakers = () => {
 
    const [speakers,SETspeakers] =useState([{
-    title:'Anupam Mittal',img:anupam,company:'Co founder,Shaadi.com',keyid:0
-   },{title:'Narayana Murthy',img:narayan,company:'Co founder,Bharatpe',keyid:1},
-   {title:'Ashneer Grover',img:Ashneer,company:'Co founder,Bharatpe',keyid:2},
-   {title:'Ashneer Grover',img:anupam,company:'Co founder,Bharatpe',keyid:3},
-   {title:'Ashneer Grover',img:narayan,company:'Co founder,Bharatpe',keyid:4}] );
+    title:'Anupam Mittal',img:anupam,company:'Co founder, Shaadi.com',keyid:0
+   },{title:'Narayana Murthy',img:narayan,company:'Co founder, Bharatpe',keyid:1},
+   {title:'Ashneer Grover',img:Ashneer,company:'Co founder, Bharatpe',keyid:2},
+   {title:'Ashneer Grover',img:anupam,company:'Co founder, Bharatpe',keyid:3},
+   {title:'Ashneer Grover',img:narayan,company:'Co founder, Bharatpe',keyid:4}] );
 
 
 const rightclick = () => {

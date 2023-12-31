@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import ecell from '../images/E-Cell logo.svg'
 import instagram from '../images/instagram.svg'
 import linkedin from '../images/Vector.svg'
@@ -15,7 +16,7 @@ const Footer = () => {
       E-Cell, IIT Guwahati <br/>
        Assam - 781039<br/>
        edc@iitg.ac.in<br></br>
-       +91 7637833974
+       +91 8299017125
       </div>
      </div>
       <div className="right">
@@ -24,25 +25,28 @@ const Footer = () => {
         frequent updates!
         </div>
         <div className="images">
+          <a className="linkedin" href='https://www.linkedin.com/company/ecell-iitg/' target='_blank'>
             <img width={40} height={30} src={linkedin} alt="" />
-            <img width={40} height={30} src={twitter} alt="" />
+          </a>
+          <a className="instagram" href='https://www.instagram.com/ecell_iitg/' target='_blank'>
             <img width={40} height={30} src={instagram} alt="" />
+          </a>
+          <a className="facebook" href='https://www.facebook.com/ecell.iitg/' target='_blank'>
             <img width={40} height={30} src={facebook} alt="" />
+          </a>
+          <a className="twitter" href='https://twitter.com/ecelliitg' target='_blank'>
+            <img width={40} height={30} src={twitter} alt="" />
+          </a>
         </div>
 
       </div>
      
     </div>
      <div className="lower">
-     <span>
-     terms and conditions*</span>
-     <span>
-     terms and conditions*
-         </span>
-         <span>
-         refund policy* 
-         </span>
-   </div>
+        <a href="/" target='_blank'>Terms & Conditions</a>
+        <a href="/" target='_blank'>Privacy Policy</a>
+        <a href="/" target='_blank'>Refund Policy</a>
+      </div>
    </>
   )
 }

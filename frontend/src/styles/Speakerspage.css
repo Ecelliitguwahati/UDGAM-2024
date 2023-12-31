@@ -54,12 +54,6 @@
     height: 530px;
     border-radius: 7px;
     background: linear-gradient(180deg, #949494 0%, rgba(168, 168, 168, 0.33) 100%);
-
-
-
-
-
-
 }
 
 .mainimg {
@@ -69,11 +63,10 @@
 }
 
 .sideimg {
+    margin-top: 34px;
     width: 100%;
-    height: 408px;
-    margin-top: 122px;
-
-
+    height: 496px;
+    object-fit: none;
 }
 
 .mainnamediv {
@@ -132,8 +125,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
 
-
+.buttonspeaker img{
+    width: 20px;
+    height: 20px;
 }
 
 .buttonspeaker:hover {
@@ -147,7 +143,7 @@
 .pastspeakersheading {
     width: 448px;
     height: 42px;
-
+    margin-top: 10vh;
     font-weight: 600;
     font-size: 49px;
     line-height: 41.65px;
@@ -175,12 +171,12 @@
 }
 
 .pastspeakerelement1 {
-    width: 288px;
+    width: 320px;
 
     display: flex;
     margin-top: 50px;
     align-items: center;
-
+    margin: 0.5%;
 
     left: 0%;
     top: 0%;
@@ -188,12 +184,12 @@
 }
 
 .pastspeakerelement2 {
-    width: 288px;
+    width: 320px;
 
     display: flex;
     margin-top: 50px;
     align-items: center;
-
+    margin: 0.5%;
 
     left: 0%;
     top: 0%;
@@ -213,12 +209,11 @@
     display: flex;
     overflow-x: hidden;
     position: relative;
-    width: calc(288px * 24);
-    animation: slide1 10s linear infinite;
+    width: calc(320px * 24);
+    animation: slide1 20s linear infinite;
 
 }
 .slider{
-   
     width: 100vw;
     overflow: hidden;
 }
@@ -256,13 +251,13 @@
     width: 129px;
     height: 168px; 
     border-radius: 76px;
-    
+    padding: 5%;
 }
 
 .pasttitle {
     display: flex;
     flex-direction: column;
-    width: 158px;
+    width: 320px;
     font-weight: 100;
 
 }
@@ -280,7 +275,19 @@
     margin-top: -20px;
 }
 
+.designation {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    margin-top: -20px;
+}
+
 .pastscroll {
     display: flex;
 
+}
+
+.mic{
+    margin-top: -150vh;
+    margin-right: 30vw;
 }

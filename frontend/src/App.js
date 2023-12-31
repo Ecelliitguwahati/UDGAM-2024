@@ -4,12 +4,13 @@ import './App.css';
 import Navbar from './components/Navbar';
 
 import {Route,Routes} from "react-router-dom"
-import {Schedule} from "./components/navbar_pages/schedule"
-import {Events} from "./components/navbar_pages/events"
-import {Merch} from "./components/navbar_pages/merch"
-import {About_us} from "./components/navbar_pages/about_us"
-import {BuyPass} from "./components/navbar_pages/buy_pass"
-import {Home} from "./components/homepage"
+import {Schedule} from "./Pages/schedule"
+import {Events} from "./Pages/events"
+import {Merch} from "./Pages/merch"
+import {About_us} from "./Pages/about_us"
+import {BuyPass} from "./Pages/buy_pass"
+import {Home} from "./Pages/homepage"
+import Footer from './components/Footer';
 function App() {
   
 
@@ -25,6 +26,7 @@ function App() {
           <Route path="/About_us" element={<About_us/>} />
           <Route path="/BuyPass" element={<BuyPass/>} />
         </Routes>
+        <Footer/>
     </div>
   );
 }
