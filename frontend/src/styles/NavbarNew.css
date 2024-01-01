@@ -55,6 +55,7 @@
     .nav-menu a{
         font-size: 2rem;
         padding: 1rem;
+        color: white;
     }
     .hamburger{
         display: initial;

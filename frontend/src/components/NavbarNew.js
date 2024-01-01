@@ -15,31 +15,15 @@ const Navbar = () => {
     <div className="header">
             <img src={logo1} alt="" className="img"/>
         <ul className={click ? "nav-menu active": "nav-menu"}>
-        <Link to="/" onClick={handleClick} style={{
-          color: 'Black',
-          borderRadius: '8px'
-        }}>Home</Link>
+        <Link to="/" onClick={handleClick} >Home</Link>
 
-        <NavLink to="/Schedule" onClick={handleClick} style={{
-          color: 'Black',
-          borderRadius: '8px'
-        }}>Schedule</NavLink>
+        <NavLink to="/Schedule" onClick={handleClick} >Schedule</NavLink>
 
-        <NavLink to="/Events" onClick={handleClick} style={{
-          color: 'Black',
+        <NavLink to="/Events" onClick={handleClick} >Events</NavLink>
 
-          borderRadius: '8px'
-        }}>Events</NavLink>
+        <NavLink to="/Sponsors" onClick={handleClick} >Sponsors</NavLink>
 
-        <NavLink to="/Sponsors" onClick={handleClick} style={{
-          color: 'Black',
-          borderRadius: '8px'
-        }}>Sponsors</NavLink>
-
-        <NavLink to="/About_us" onClick={handleClick} style={{
-          color: 'Black',
-          borderRadius: '8px'
-        }}>About us</NavLink>
+        <NavLink to="/About_us" onClick={handleClick} >About us</NavLink>
 
         {/* <img src={logo} alt="Logo" /> */}
         <NavLink className="BuyPass" to="/BuyPass" onClick={handleClick}>

@@ -360,6 +360,7 @@
 
     .past1 {
         width: calc(200px*24);
+        animation: slide1 30s linear infinite;
     }
 
     .pastspeakerelement1{
