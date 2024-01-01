@@ -195,6 +195,12 @@
 } */
 
 @media screen and (max-width: 600px){
+    .events{
+        display: flex;
+    }
+    .eventlist-home{
+        width: 90%;
+    }
     .eventtitle-home{
         font-size: 50px;
         width: 100%;
@@ -219,6 +225,28 @@
         justify-content: center;
     }
     .eventgrid-home div{
-        /* width: 90%; */
+        width: 90%;
+        height: 60vh;
+    }
+    .eventimg{
+        height: 8rem;
+        width: 50%;
+    }
+    .eventname{
+        font-size: 30px;
+        top: 2rem;
+    }
+    .eventdesc1{
+        font-size: 15px;
+        top: 2rem;
+    }
+    .eventdesc2{
+        top: 4rem;
+    }
+    .register{
+        top: 5rem;
+        font-size: 15px;
+        height: 30px;
+        width: 100px;
     }
 }
