@@ -198,8 +198,19 @@
     .events{
         display: flex;
     }
+    .eventlist{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .eventlist-home{
         width: 90%;
+    }
+    .eventhead{
+        font-size: 50px;
+        width: 100%;
+        text-align: center;
     }
     .eventtitle-home{
         font-size: 50px;
@@ -218,11 +229,22 @@
         height: 6vh;
         font-size: 20px;
     }
+    .eventgrid{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
     .eventgrid-home{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+    .eventgrid div{
+        width: 90%;
+        height: 60vh;
     }
     .eventgrid-home div{
         width: 90%;
@@ -237,6 +259,7 @@
         top: 2rem;
     }
     .eventdesc1{
+        width: 90%;
         font-size: 15px;
         top: 2rem;
     }

@@ -56,7 +56,7 @@ export const Events = () => {
 
     return (
         <div className="eventlist">
-            <div className="eventhead">Events List</div>
+            <div className="eventhead">Our Events</div>
             <div className="eventgrid">
 
                 <div className="tags">
