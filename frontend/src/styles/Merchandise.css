@@ -1,0 +1,39 @@
+@media only screen and (max-width: 600px) {
+    .merchHead {
+        width: 100%;
+        height: 100%;
+        font-size: 40px;
+        line-height: 50px;
+        text-align: center;
+        display: block;
+        text-shadow: none;
+    }
+
+    .merchCraft {
+        font-size: 20px;
+        margin-top: 0;
+    }
+
+    .ts1 {
+        margin-top: 50px;
+    }
+
+    .ts2 {
+        margin-top: 80px;
+    }
+
+    .ts3 {
+        margin-top: 80px;
+    }
+
+    .wantMerch {
+        font-size: 20px;
+        width: 180px;
+        height: 50px;
+        margin: 0;
+    }
+
+    .Arrowhead{
+        display: none;
+    }
+}

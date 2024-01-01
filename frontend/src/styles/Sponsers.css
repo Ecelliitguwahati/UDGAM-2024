@@ -46,4 +46,50 @@ box-shadow: 0px 4px 6.4px 0px rgba(0, 0, 0, 0.16);
     flex-direction: row;
     justify-content: space-between;
     width: 23vw;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px){
+    .Sponsers{
+        margin-top: 10vh;
+    }
+
+    .sponText{
+        width: 100%;
+        font-size: 40px;
+        margin: 10px;
+        text-align: center;
+    }
+
+    .coinpurple{
+        display: none;
+    }
+
+    .coinpurpl{
+        display: none;
+    }
+
+    .SponList {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .spname{
+        width: 80vw;
+        height: 30vh;
+        margin-top: 5vh;
+    }
+
+    .samosa{
+        width: 80vw;
+        margin-top: 5vh;
+        justify-content: center;
+    }
+
+    .viewall{
+        width: 60vw;
+        margin: 0 10px;
+    }
 }

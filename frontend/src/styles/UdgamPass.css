@@ -16,7 +16,7 @@
 }
 
 .tilt img:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .UdgamPass {
@@ -24,7 +24,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20vh;
+    margin-bottom: 10vh;
     padding: 5vh 10vw;
 }
 
@@ -52,6 +52,19 @@
     margin: 5%;
     z-index: 4;
 }
+
+.benefittitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.benefitdesc {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 10px;
+}
+
 
 .benefit1{
     /* position: relative;
@@ -115,4 +128,27 @@
     top: 8vh;
     right: -4vw;
     width: 30vw;
+}
+
+@media only screen and (max-width: 600px) {
+    .tilt {
+        width: 30vw;
+    }
+
+    .benefit1, .benefit2, .benefit3, .benefit4 {
+        opacity: 0;
+    }
+
+    .benefittitle{
+        font-size: 1rem;
+    }
+
+    .benefitdesc{
+        display: none;
+    }
+
+    .UdgamPass:hover .benefit1, .UdgamPass:hover .benefit2, .UdgamPass:hover .benefit3, .UdgamPass:hover .benefit4 {
+        opacity: 1;
+        width: 100%;
+    }
 }

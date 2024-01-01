@@ -60,6 +60,7 @@
     margin-top: 34px;
     width: 100%;
     height: 496px;
+    border-radius: 7px;
 }
 
 .sideimg {
@@ -67,6 +68,7 @@
     width: 100%;
     height: 496px;
     object-fit: none;
+    border-radius: 7px;
 }
 
 .mainnamediv {
@@ -291,3 +293,97 @@
     margin-top: -150vh;
     margin-right: 30vw;
 }
+
+@media only screen and (max-width: 600px) {
+    .speakdiv2 {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .Speakerspagetitle {
+        width: 100%;
+        font-size: 50px;
+        line-height: 50px;
+        text-align: center;
+        display: block;
+    }
+
+    .Speakers {
+        height: 100%;
+        width: 100%;
+    }
+
+    .mainspeaker {
+        width: 80vw;
+        height: 100%;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .sidespeaker {
+        display: none;
+    }
+
+    .mainnamediv {
+        width: 90%;
+    }
+
+    .maintitlediv {
+        text-align: center;
+    }
+
+    .maintitle {
+        font-size: 20px;
+        margin-top: -30px;
+    }
+
+    .companyname {
+        font-size: 15px;
+        margin-top: -20px;
+    }
+
+    .buttonspeaker {
+        margin: 0 3%;
+    }
+
+    .pastspeakers {
+        width: 100%;
+    }
+
+    .pastspeakersheading {
+        width: 100%;
+        font-size: 40px;
+        line-height: 50px;
+        text-align: center;
+        display: block;
+    }
+
+    .past1 {
+        width: calc(200px*24);
+    }
+
+    .pastspeakerelement1{
+        width: 240px;
+    }
+
+    .pastimg {
+        width: 100px;
+        height: 100px;
+    }
+
+    .pastname {
+        font-size: 20px;
+    }
+
+    .designation {
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .pastcompany {
+        font-size: 15px;
+        font-weight: 400;
+        margin-top: -24px;
+    }
+}
+

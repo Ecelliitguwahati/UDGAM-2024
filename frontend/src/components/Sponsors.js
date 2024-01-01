@@ -17,12 +17,12 @@ const Sponsers = () => {
             <img src={coinpurple} alt="coinpurple" className="coinpurpl" />
             </div>
              
-             <div className="samosa">
+             <a href="/" className="samosa">
                 <div className="viewall">
                 View all Sponsors
                 </div>
                 <img src={samosa} alt="" />
-             </div>
+             </a>
         </div>
      );
 }

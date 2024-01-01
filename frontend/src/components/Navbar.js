@@ -1,12 +1,10 @@
-//import { Link } from "react-router-dom";
-//import React, { useState } from 'react';
-import logo from '../images/Frame 3.png'
 import logo1 from '../images/Udgam Rhombus.png';
 import Pass from '../images/BuyPass.png';
 import '../styles/Navbar.css'
-import { useState,useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { NavLink, Link } from "react-router-dom"
 import { gsap, CSSPlugin } from 'gsap';
+import Hamburger from '../icons/bars-solid.svg';
 gsap.registerPlugin(CSSPlugin);
 
 
@@ -27,8 +25,32 @@ const Navbar = () => {
   //   };
   // }, []);
 
-  return (
+    useEffect(() => {
+        const navSlide = () => {
+            const burger = document.querySelector('.hamburger');
+            const nav = document.querySelector('.links');
+            const navLinks = document.querySelectorAll('.links li');
+            //Toggle Nav
+            burger.addEventListener('click', () => {
+                console.log("clicked");
+                nav.classList.toggle('nav-active');
+                //Animate Links
+                navLinks.forEach((link, index) => {
+                    if (link.style.animation) {
+                        link.style.animation = '';
+                    } else {
+                        link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.5}s`;
+                    }
+                });
+                //Burger Animation
+                burger.classList.toggle('toggle');
+            });
+        }
+        navSlide();
+    }, []);
 
+  return (
+    <div>
     <nav className="navbar" style={{ position: 'relative', zIndex: 2, border: 0 }}>
       <div className="udgRhom">
         <img src={logo1} alt="logo1" />
@@ -51,10 +73,10 @@ const Navbar = () => {
           borderRadius: '8px'
         }}>Events</NavLink>
 
-        <NavLink to="/Merch" style={{
+        <NavLink to="/Sponsors" style={{
           color: 'Black',
           borderRadius: '8px'
-        }}>Merch</NavLink>
+        }}>Sponsors</NavLink>
 
         <NavLink to="/About_us" style={{
           color: 'Black',
@@ -66,9 +88,12 @@ const Navbar = () => {
           <img src={Pass} alt="Buy pass" />
         </NavLink>
       </div>
+      <div className="hamburger toggle">
+        <img src={Hamburger} alt="hamburger" />
+      </div>
     </nav>
+    </div>
   );
 }
-
 
 export default Navbar;

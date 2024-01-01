@@ -2,12 +2,13 @@ import React, { useState, useEffect } from 'react';
 import Speakerspage from '../components/Speakerspage';
 import Navbar from '../components/Navbar';
 import '../styles/Speakerspage.css'
-import Udgam from '../components/WhIsUdgam';
+import Udgam from '../components/UdgamPass';
 import Merchandise from '../components/Merchandise';
 import Sponsers from '../components/Sponsors';
 import FAQs from '../components/FAQs';
 import Footer from '../components/Footer';
 import { Preloader } from '../components/preloader';
+import Events from '../components/Events';
 
 export const Home = () => {
     // const [animationComplete, setAnimationComplete] = useState(false);
@@ -39,6 +40,7 @@ export const Home = () => {
             {/* {animationComplete && ( */}
                 <>
                     <Udgam />
+                    <Events />
                     <Speakerspage />
                     <Merchandise />
                     <Sponsers />

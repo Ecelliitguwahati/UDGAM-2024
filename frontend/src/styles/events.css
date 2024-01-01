@@ -1,4 +1,12 @@
+.events {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.eventlist-home{
+    margin-bottom: 10vh;
+}
 
 .eventhead{
     position: relative;
@@ -8,6 +16,37 @@
     text-align: center;
     margin-bottom: 3rem;
 }
+
+.eventhead-home{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+.eventtitle-home{
+    width: 80%;
+    color: rgba(65, 65, 65, 1);
+    font-size: 76px;
+    font-weight: 600;
+    font-family: 'Grtsk';
+    font-size: 76px;
+}
+
+.more-events{
+    text-decoration: none;
+    border-radius: 10px;
+    width: 16vw;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--Purp, #9779F5);
+    color: white;
+    box-shadow: 0px 4px 6.4px 0px rgba(0, 0, 0, 0.16);
+}
+
 .eventgrid{
     
     display: grid;
@@ -20,11 +59,27 @@
     
 }
 
+.eventgrid-home{
+    
+    display: grid;
+    /* height: 100vh; */
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr;  */
+    gap: 2rem;
+}
+
 .eventgrid div{
     height: 474px;
     width: 385px;
     background-color:rgba(206, 197, 236, 0.5);
 }
+
+.eventgrid-home div{
+    height: 474px;
+    width: 385px;
+    background-color:rgba(206, 197, 236, 0.5);
+}
+
 .eventimg{
     height: 24rem;
     position: absolute;
@@ -74,13 +129,12 @@
     position: relative;
     z-index:3;
     font-size: 13px;
-  
+    padding: 10px;
     font-family: "Grtsk";
     font-weight: 400;
-    margin: 0;
+    margin: 2%;
     
     top: 7rem;
-    width: 100%;
     text-align: left;
     /* opacity: 0; */
 }
@@ -90,7 +144,7 @@
     z-index: 3;
     text-decoration: none;
     left: 6rem;
-    top: 7rem;
+    top: 6.5rem;
     text-align: center;
     line-height: 30px;
     background-color: rgba(105, 57, 255, 1);
@@ -139,3 +193,32 @@
     bottom: 72rem;
     z-index: -1;
 } */
+
+@media screen and (max-width: 600px){
+    .eventtitle-home{
+        font-size: 50px;
+        width: 100%;
+        text-align: center;
+    }
+    .eventhead-home{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .more-events{
+        width: 60%;
+        height: 6vh;
+        font-size: 20px;
+    }
+    .eventgrid-home{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .eventgrid-home div{
+        /* width: 90%; */
+    }
+}

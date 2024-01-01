@@ -58,6 +58,10 @@
     text-align: start;
 }
 
+.left img {
+    width: 8vw;
+}
+
 .name{
     font-size: 20px;
     padding: 30px;

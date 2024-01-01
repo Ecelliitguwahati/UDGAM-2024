@@ -5,6 +5,7 @@ import instagram from '../images/instagram.svg'
 import linkedin from '../images/Vector.svg'
 import facebook from '../images/icons8-facebook 1.svg'
 import twitter from '../images/icons8-twitterx 1.svg'
+import '../styles/Footer.css'
 
 const Footer = () => {
   return (
@@ -21,8 +22,7 @@ const Footer = () => {
      </div>
       <div className="right">
         <div className="upper">
-        Follow us to get<br/>
-        frequent updates!
+        Follow us to get frequent updates!
         </div>
         <div className="images">
           <a className="linkedin" href='https://www.linkedin.com/company/ecell-iitg/' target='_blank'>
