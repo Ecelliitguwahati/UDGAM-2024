@@ -26,7 +26,7 @@ const Pastspeakers = () => {
     {title:'Charlie Cheever',img:charlie,designation:'Co-Founder',company:'Quora',keyid:3},
     {title:'Jimmy Wales',img:jimmywales,designation:'Founder',company:'Wikipedia',keyid:4},
     {title:'Pulkit Jain',img:pulkit,designation:'Co-Founder',company:'Vedantu',keyid:5},
-    {title:'Kevin Harrington',img:kevin,designation:'Orignial Shark',company:'Shark Tank',keyid:6},
+    {title:'Kevin Harrington',img:kevin,designation:'Original Shark',company:'Shark Tank',keyid:6},
     {title:'Amod Malviya',img:amod,designation:'Co-Founder',company:'Udaan',keyid:7},
     {title:'Michael Seibel',img:michael,designation:'CEO',company:'Y Combinator',keyid:8},
     {title:'Rohit Kapoor',img:rohit,designation:'CEO',company:'Swiggy',keyid:9},

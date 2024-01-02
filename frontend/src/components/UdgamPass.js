@@ -2,6 +2,8 @@ import { useEffect } from 'react';
 import UDGAM24Purp from '../images/UDGAM24Purp.png'; 
 import '../styles/Udgam.css'
 import '../styles/UdgamPass.css'
+import arrow from '../images/pass line.svg'
+import arrowlonger from '../images/pass line longer.svg'
 import arrow1 from '../images/Vector 142.png'
 import arrow2 from '../images/Vector 143.png'
 import arrow3 from '../images/Vector 144.png'
@@ -48,7 +50,7 @@ const Udgam = () => {
                         <p className='benefittitle'>Lecture Series</p>  
                             <p className='benefitdesc'>Entry to a series of lectures, workshops and panel discussions by top entrepreneurs like Ashneer Grover, Narayan Murthy and many more.</p>
                         </div>
-                        <img src={arrow1} alt="arrow1" className='arrow1'/>
+                        <img src={arrowlonger} alt="arrow1" className='arrow1'/>
                     </div>
                     <div className="b2">
                         <div className='benefit2'>
@@ -57,7 +59,7 @@ const Udgam = () => {
                                 Enjoy a series of fun events like IPL Auction, Monopoly, Split & steal, and many more.
                             </p>
                         </div>
-                        <img src={arrow2} alt="arrow2" className='arrow2'/>
+                        <img src={arrow} alt="arrow2" className='arrow2'/>
                     </div>
                 </div>
                 <div className="tilt">
@@ -67,7 +69,7 @@ const Udgam = () => {
                 </div>
                 <div className="benefitright">
                     <div className="b3">
-                        <img src={arrow3} alt="arrow3" className='arrow3'/>
+                        <img src={arrow} alt="arrow3" className='arrow3'/>
                         <div className='benefit3'>
                         <p className='benefittitle'>Intern Fair</p>
                             <p className='benefitdesc'>
@@ -75,12 +77,12 @@ const Udgam = () => {
                         </div>
                     </div>
                     <div className="b4">
-                        <img src={arrow4} alt="arrow4" className='arrow4'/>
+                        <img src={arrowlonger} alt="arrow4" className='arrow4'/>
                         <div className='benefit4'>
                             <p className='benefittitle'>
-                                Grab On Coupons</p>  
+                                Coupons and Goodies</p>  
                             <p className='benefitdesc'>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam reprehenderit perspiciatis ad, possimus commodi explicabo.</p>
+                                Exclusive coupons and goodies for all pass holders from our partners</p>
                         </div>
                     </div>
                 </div>
