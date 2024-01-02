@@ -5,6 +5,7 @@ import instagram from '../images/instagram.svg'
 import linkedin from '../images/Vector.svg'
 import facebook from '../images/icons8-facebook 1.svg'
 import twitter from '../images/icons8-twitterx 1.svg'
+import udgamlogo from '../images/Udgam Footer Logo.svg'
 import '../styles/Footer.css'
 
 const Footer = () => {
@@ -12,12 +13,13 @@ const Footer = () => {
     <>
     <div className='footer'>
      <div className="left">
-     <img src={ecell} alt="" />
+     <img src={udgamlogo} alt="" />
       <div className="name">
-      E-Cell, IIT Guwahati <br/>
+      <b>E-Cell, IIT Guwahati</b><br/>
        Assam - 781039<br/>
-       edc@iitg.ac.in<br></br>
-       +91 8299017125
+       <div className='contact'>edc@iitg.ac.in<br/>
+       udgam@iitg.ac.in<br/>
+       +91 8299017125</div>
       </div>
      </div>
       <div className="right">
