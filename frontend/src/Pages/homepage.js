@@ -11,33 +11,33 @@ import { Preloader } from '../components/preloader';
 import Events from '../components/Events';
 
 export const Home = () => {
-    // const [animationComplete, setAnimationComplete] = useState(false);
-    const [animationComplete, setAnimationComplete] = useState(true);
+    const [animationComplete, setAnimationComplete] = useState(false);
+    // const [animationComplete, setAnimationComplete] = useState(true);
 
-    // useEffect(() => {
+    useEffect(() => {
 
-    //     // Disable scrolling during animation
-    //     document.body.style.overflow = 'hidden';
+        // Disable scrolling during animation
+        document.body.style.overflow = 'hidden';
 
-    //     const animationTimeout = setTimeout(() => {
-    //         setAnimationComplete(true);
-    //         // Enable scrolling after animation is complete
-    //         document.body.style.overflow = 'visible';
-    //     }, 9700);
+        const animationTimeout = setTimeout(() => {
+            setAnimationComplete(true);
+            // Enable scrolling after animation is complete
+            document.body.style.overflow = 'visible';
+        }, 5700);
 
-    //     // Clear the timeout to prevent memory leaks
-    //     return () => {
-    //         clearTimeout(animationTimeout);
-    //         // Ensure scrolling is re-enabled in case the component unmounts before the animation completes
-    //         document.body.style.overflow = 'visible';
-    //     };
-    // }, []);
+        // Clear the timeout to prevent memory leaks
+        return () => {
+            clearTimeout(animationTimeout);
+            // Ensure scrolling is re-enabled in case the component unmounts before the animation completes
+            document.body.style.overflow = 'visible';
+        };
+    }, []);
 
     return (
 
         <div className="HomePage" style={{ display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
-            {/* <Preloader setAnimationComplete={setAnimationComplete} /> */}
-            {/* {animationComplete && ( */}
+            <Preloader setAnimationComplete={setAnimationComplete} />
+            {animationComplete && (
                 <>
                     <Udgam />
                     <Events />
@@ -46,7 +46,7 @@ export const Home = () => {
                     <Sponsers />
                     {/* <FAQs /> */}
                 </>
-            {/* )} */}
+            )}
         </div>
     )
 }
