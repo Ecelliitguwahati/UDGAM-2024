@@ -9,6 +9,7 @@ import arrow2 from '../images/Vector 143.png'
 import arrow3 from '../images/Vector 144.png'
 import arrow4 from '../images/Vector 145.png'
 import UdgamPass from '../images/UdgamPass.png'
+import platformMobile from '../images/platform mobile.svg'
 
 const Udgam = () => {
 
@@ -44,6 +45,7 @@ const Udgam = () => {
     return ( 
         
         <div className="whIsUdg">
+            <img src={platformMobile} alt="platform" className='platform'/>
             <div className="UdgamPass">
                 <div className="benefitleft">
                     <div className="b1">

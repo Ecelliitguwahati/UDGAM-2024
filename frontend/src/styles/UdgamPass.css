@@ -136,25 +136,54 @@
     rotate: 180deg;
 }
 
+.platform{
+    display: none;
+}
+
 @media only screen and (max-width: 600px) {
+    .whIsUdg{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     .tilt {
-        width: 30vw;
+        width: 60vw;
+    }
+
+    .platform{
+        display: block;
+        width: 120%;
+        object-fit: contain;
+        margin-top: -5rem;
+    }
+
+    .UdgamPass{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 10vh;
+    }
+
+    .UdgamPass .benefitleft,.UdgamPass .benefitright{
+        flex-direction: row;
     }
 
     .benefit1, .benefit2, .benefit3, .benefit4 {
-        opacity: 0;
+        width: 40vw;
     }
 
-    .benefittitle{
-        font-size: 1rem;
-    }
-
-    .benefitdesc{
+    .arrow1, .arrow2, .arrow3, .arrow4 {
         display: none;
     }
 
-    .UdgamPass:hover .benefit1, .UdgamPass:hover .benefit2, .UdgamPass:hover .benefit3, .UdgamPass:hover .benefit4 {
-        opacity: 1;
-        width: 100%;
+    .benefittitle {
+        font-size: 1.2rem;
+    }
+
+    .benefitdesc {
+        font-size: 0.7rem;
     }
 }
