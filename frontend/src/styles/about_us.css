@@ -1,3 +1,10 @@
+.aboutpage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .abouthead{
     position: relative;
     margin-top: 3rem;
@@ -14,15 +21,21 @@
     height: 297px;
     width: 283px;
 }
+
+.aboutimg{
+    height: 297px;
+    width: 283px;
+}
+
 .aboutgrid{
     
     display: grid;
-    height: 964px;
-    width: 1238px;
+    /* height: 964px;
+    width: 1238px; */
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr; 
-    margin: 0 auto;
+    grid-template-rows: 1fr 1fr 1fr 1fr; 
     /* margin-bottom: 5rem; */
+    gap: 1.5rem;
 }
 
 .headdetails{
@@ -76,8 +89,7 @@
     width: 1200px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr; 
-    margin-left: 11rem ;
-    
+    margin-left: 11rem ; 
 }
 .moduletags{
     background-color: rgba(68, 67, 67, 1);
@@ -147,4 +159,75 @@
 }
 .moduledetails:hover .modulename{
     transform: translateY(-30px);
+}
+@media screen and (max-width: 600px){
+    .events{
+        display: flex;
+    }
+    .aboutpage{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .abouthead{
+        font-size: 40px;
+        width: 100%;
+        text-align: center;
+    }
+    .aboutgrid{
+        display: grid;
+        height: auto;
+        width: auto;
+        grid-template-columns: 1fr ;
+        grid-template-rows: auto; 
+        margin: 0 auto;
+        grid-row-gap: 1.5rem;
+        /* margin-bottom: 5rem; */
+    }
+    .module{
+        font-size: 40px;
+        width: 100%;
+        text-align: center;
+    }
+    .modulegrid{
+        display: grid;
+        height: 4500px;
+        width: 412px;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-row-gap: 1.5rem ;
+        margin: 0;
+    }
+    .moduletags{
+        background-color: rgba(68, 67, 67, 1);
+        height: 439px;
+        width: 400px;
+        border-radius: 21px;
+        margin: 0 0 0 6px;
+        padding: 0 0 0 0 ;
+    }
+    .moduleimg{
+        height: 300px;
+        width: 400px;
+        position: relative;
+        bottom: 2rem;
+        
+    }
+    .moduledetails{
+        height: 170px;
+        width: 388px;
+        background-color: white;
+        border-radius: 16px;
+        position: relative;
+        bottom: 3.5rem;
+        transition: 0.5s;
+    }
+
+    .moduledetails:hover{
+        height: 427px;
+        transform: translateY(-257px);
+        background-color: rgba(255, 255, 255, 0.5);
+    }
 }
