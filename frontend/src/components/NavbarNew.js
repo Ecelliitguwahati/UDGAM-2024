@@ -23,7 +23,7 @@ const Navbar = () => {
 
         <NavLink to="/Sponsors" onClick={handleClick} >Sponsors</NavLink>
 
-        <NavLink to="/About_us" onClick={handleClick} >About us</NavLink>
+        <NavLink to="/About_us" onClick={handleClick} >Our Team</NavLink>
 
         {/* <img src={logo} alt="Logo" /> */}
         <NavLink className="BuyPass" to="/BuyPass" onClick={handleClick}>

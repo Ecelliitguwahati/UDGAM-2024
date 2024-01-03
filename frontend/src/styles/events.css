@@ -108,7 +108,7 @@
     background-color:rgba(254, 254, 254, 0.5); 
     width: 100%;
     text-align: center;
-    top: 5rem;
+    top: 6rem;
       
 }
 .eventdesc1{
@@ -119,7 +119,7 @@
     font-weight: 400;
     color:  rgba(65, 65, 65, 1);
     margin: 0;
-    top: 5rem;
+    top: 6rem;
     background-color:rgba(254, 254, 254, 0.5); 
     width: 100%;
     text-align: center;
@@ -144,7 +144,7 @@
     z-index: 3;
     text-decoration: none;
     left: 6rem;
-    top: 6.5rem;
+    top: 7.5rem;
     text-align: center;
     line-height: 30px;
     background-color: rgba(105, 57, 255, 1);

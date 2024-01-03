@@ -145,10 +145,12 @@ export const About_us = () => {
                             <p className="modulename">PMx</p>
                             <p className="manager">Managers</p>
                             <ul className="managerlist">
-                                <li>Lorem, ipsum dolor.</li>
-                                <li>Lorem, ipsum dolor.</li>
-                                <li>Lorem, ipsum dolor.</li>
-                                <li>Lorem, ipsum dolor.</li>
+                                <li>Arushi Kumar</li>
+                                <li>Shreeya Gupta</li>
+                                <li>Saundarya Keshari</li>
+                                <li>Arin Gupta</li>
+                                <li>Pujan Shah</li>
+                                <li>Nishtha Khatri</li>
                             </ul>
                         </div>
                     </div>
@@ -217,10 +219,13 @@ export const About_us = () => {
                             <p className="modulename">LS</p>
                             <p className="manager">Managers</p>
                             <ul className="managerlist">
-                                <li>Lorem, ipsum dolor.</li>
-                                <li>Lorem, ipsum dolor.</li>
-                                <li>Lorem, ipsum dolor.</li>
-                                <li>Lorem, ipsum dolor.</li>
+                                <li>Khushi Aggarawal</li>
+                                <li>Krishna Vamsi</li>
+                                <li>Narayan Pratap Singh</li>
+                                <li>Rishi Kawa</li>
+                                <li>Rohit Dayalani</li>
+                                <li>Shashwat Srivastava</li>
+                                <li>Shrutee Prakash</li>
                             </ul>
                         </div>
                     </div>
@@ -230,10 +235,15 @@ export const About_us = () => {
                             <p className="modulename">Marky</p>
                             <p className="manager">Managers</p>
                             <ul className="managerlist">
-                                <li>Lorem, ipsum dolor.</li>
-                                <li>Lorem, ipsum dolor.</li>
-                                <li>Lorem, ipsum dolor.</li>
-                                <li>Lorem, ipsum dolor.</li>
+                                <li>Krishnam Gupta</li>
+                                <li>Krishna Agarwal</li>
+                                <li>Kushagra Singh Sisodiya</li>
+                                <li>Shubham Yadav</li>
+                                <li>Yash Gupta</li>
+                                <li>Yuvraj Singh</li>
+                                <li>Abhinandan Tiwari</li>
+                                <li>Neel Junarkar</li>
+                                <li>Priyanshu</li>
                             </ul>
                         </div>
                     </div>
@@ -243,10 +253,11 @@ export const About_us = () => {
                             <p className="modulename">Sparkle</p>
                             <p className="manager">Managers</p>
                             <ul className="managerlist">
-                                <li>Lorem, ipsum dolor.</li>
-                                <li>Lorem, ipsum dolor.</li>
-                                <li>Lorem, ipsum dolor.</li>
-                                <li>Lorem, ipsum dolor.</li>
+                                <li>Bhargavi Divyam</li>
+                                <li>Aradhya Singh</li>
+                                <li>Mrinal Agrawal</li>
+                                <li>Krishna Vamsi</li>
+                                <li>Ambuj Mishra</li>
                             </ul>
                         </div>
                     </div>
@@ -276,10 +287,13 @@ export const About_us = () => {
                             <p className="modulename">NED</p>
                             <p className="manager">Managers</p>
                             <ul className="managerlist">
-                                <li>Lorem, ipsum dolor.</li>
-                                <li>Lorem, ipsum dolor.</li>
-                                <li>Lorem, ipsum dolor.</li>
-                                <li>Lorem, ipsum dolor.</li>
+                                <li>Atri Chattopadhyay </li>
+                                <li>Ankit Kumar Singh</li>
+                                <li>Sneha Das</li>
+                                <li>Reema Tikadar</li>
+                                <li>Tanu Siwach</li>
+                                <li>Chinam Suraj Patra</li>
+                                <li>Anushka Shruti</li>
                             </ul>
                         </div>
                     </div>
