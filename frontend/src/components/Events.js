@@ -77,9 +77,9 @@ const Events = () => {
                 </div>
                 <div className="tags">
                     <img src={mike} alt="mike" className="eventimg" />
-                    <p className="eventname">NED</p>
-                    <p className="eventdesc1">National Entrepreneurship Drive</p>
-                    <p className="eventdesc2">NED is our latest initiative where we aim to promote the entrepreneur environment and startup urge by helping institutes of India set up their own Entrepreneurship Cells in their institutes.</p>
+                    <p className="eventname">Startup Expo</p>
+                    <p className="eventdesc1">Connect, Collaborate, and Innovate</p>
+                    <p className="eventdesc2">Startup Expo is a unique opportunity for startups to showcase their products or services, receive valuable customer feedback, and connect with potential investors.</p>
                     
                 </div>
             </div>
