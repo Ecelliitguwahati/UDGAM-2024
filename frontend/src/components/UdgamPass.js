@@ -12,6 +12,7 @@ import UdgamPass from '../images/UdgamPass.png'
 import platformMobile from '../images/platform mobile.jpg'
 
 const Udgam = () => {
+    setTimeout(5000);
 
     // Tilt Animation
     useEffect(() => {
