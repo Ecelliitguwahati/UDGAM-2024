@@ -20,11 +20,13 @@
     background-color: rgba(217, 217, 217, 1);
     height: 297px;
     width: 283px;
+    border-radius: 21px;
 }
 
 .aboutimg{
     height: 297px;
     width: 283px;
+    border-radius: 21px;
 }
 
 .aboutgrid{
@@ -69,6 +71,13 @@
     color: rgba(151, 121, 245, 1);
 }
 
+.modulesection{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .module{
     position: relative;
@@ -85,11 +94,12 @@
 .modulegrid{
     
     display: grid;
-    height: 2500px;
-    width: 1200px;
+    /* height: 2500px;
+    width: 1200px; */
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr; 
-    margin-left: 11rem ; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
+    gap: 1.5rem;
+    /* margin-left: 11rem ;  */
 }
 .moduletags{
     background-color: rgba(68, 67, 67, 1);
@@ -121,15 +131,15 @@
     transition: 0.5s;
 }
 .manager{
-    font-size: 19px;
+    font-size: 30px;
     font-family: "Grtsk";
-    font-weight: 400;
+    font-weight: 600;
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
     position: relative;
     top: -7rem;
-    padding-left: 1rem;
+    padding-left: 2rem;
 }
 .managerlist{
     font-size: 19px;
@@ -145,7 +155,7 @@
 .moduledetails:hover{
     height: 525px;
     transform: translateY(-355px);
-    background-color: rgba(255, 255, 255, 0.5);
+    /* background-color: rgba(255, 255, 255, 0.5); */
 }
 .moduledetails:hover .manager{
     visibility: visible;
@@ -193,41 +203,55 @@
     }
     .modulegrid{
         display: grid;
-        height: 4500px;
-        width: 412px;
+        height: auto;
+        width: auto;
         grid-template-columns: 1fr;
         grid-template-rows: auto;
         grid-row-gap: 1.5rem ;
-        margin: 0;
+        margin: 0 auto;
     }
     .moduletags{
         background-color: rgba(68, 67, 67, 1);
-        height: 439px;
-        width: 400px;
+        height: 300px;
+        width: 300px;
         border-radius: 21px;
         margin: 0 0 0 6px;
         padding: 0 0 0 0 ;
     }
     .moduleimg{
         height: 300px;
-        width: 400px;
+        width: 300px;
         position: relative;
         bottom: 2rem;
         
     }
     .moduledetails{
-        height: 170px;
-        width: 388px;
+        height: 60px;
+        width: 288px;
         background-color: white;
         border-radius: 16px;
         position: relative;
-        bottom: 3.5rem;
+        bottom: 5.5rem;
         transition: 0.5s;
     }
 
+    .modulename{
+        padding: 0;
+        font-size: 40px;
+    }
+
     .moduledetails:hover{
-        height: 427px;
-        transform: translateY(-257px);
-        background-color: rgba(255, 255, 255, 0.5);
+        height: 288px;
+        transform: translateY(-225px);
+    }
+
+    .moduledetails:hover .manager{
+        transform: translateY(120px);
+    }
+    .moduledetails:hover .managerlist{
+        transform: translateY(140px);
+    }
+    .moduledetails:hover .modulename{
+        transform: translateY(10px);
     }
 }

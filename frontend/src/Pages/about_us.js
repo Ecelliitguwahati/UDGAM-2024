@@ -25,211 +25,251 @@ export const About_us = () => {
                 <div className="headtags">
                     <img src={aman} alt="mike" className="aboutimg" />
                     <div className="headdetails">
-                        <p className="headname">Vedaprakash Rajan</p>
-                        <p className="headrank">Design head</p>
+                        <p className="headname">Aman Raghuwanshi</p>
+                        <p className="headrank">Finance Head</p>
                     </div>
                 </div>
                 <div className="headtags">
                     <img src={aniba} alt="mike" className="aboutimg" />
                     <div className="headdetails">
-                        <p className="headname">Vedaprakash Rajan</p>
-                        <p className="headrank">Design head</p>
+                        <p className="headname">Aniba Agarwal</p>
+                        <p className="headrank">LS & Sparkle Head</p>
                     </div>
                 </div>
                 <div className="headtags">
                     <img src={ashish} alt="mike" className="aboutimg" />
                     <div className="headdetails">
-                        <p className="headname">Vedaprakash Rajan</p>
-                        <p className="headrank">Design head</p>
+                        <p className="headname">Ashish Motwani</p>
+                        <p className="headrank">Marketing Head</p>
                     </div>
                 </div>
                 <div className="headtags">
                     <img src={dushyanth} alt="mike" className="aboutimg" />
                     <div className="headdetails">
-                        <p className="headname">Vedaprakash Rajan</p>
-                        <p className="headrank">Design head</p>
+                        <p className="headname">Dhushyanthan K</p>
+                        <p className="headrank">PR & Branding Head</p>
                     </div>
                 </div>
                 <div className="headtags">
                     <img src={harsh} alt="mike" className="aboutimg" />
                     <div className="headdetails">
-                        <p className="headname">Vedaprakash Rajan</p>
-                        <p className="headrank">Design head</p>
+                        <p className="headname">Harsh Diwaker</p>
+                        <p className="headrank">NED Head</p>
                     </div>
                 </div>
                 <div className="headtags">
                     <img src={kavinash} alt="mike" className="aboutimg" />
                     <div className="headdetails">
-                        <p className="headname">Vedaprakash Rajan</p>
-                        <p className="headrank">Design head</p>
+                        <p className="headname">Kavinash</p>
+                        <p className="headrank">Design Head</p>
                     </div>
                 </div>
                 <div className="headtags">
                     <img src={khushi} alt="mike" className="aboutimg" />
                     <div className="headdetails">
-                        <p className="headname">Vedaprakash Rajan</p>
-                        <p className="headrank">Design head</p>
+                        <p className="headname">Khushi Bothra</p>
+                        <p className="headrank">StartupExpo Head</p>
                     </div>
                 </div>
                 <div className="headtags">
                     <img src={lakshya} alt="mike" className="aboutimg" />
                     <div className="headdetails">
-                        <p className="headname">Vedaprakash Rajan</p>
-                        <p className="headrank">Design head</p>
+                        <p className="headname">Lakshya Patel</p>
+                        <p className="headrank">Disrupt Head</p>
                     </div>
                 </div>
                 <div className="headtags">
                     <img src={netra} alt="mike" className="aboutimg" />
                     <div className="headdetails">
-                        <p className="headname">Vedaprakash Rajan</p>
-                        <p className="headrank">Design head</p>
+                        <p className="headname">Netra Pujar</p>
+                        <p className="headrank">Media Head</p>
                     </div>
                 </div>
                 <div className="headtags">
                     <img src={nityam} alt="mike" className="aboutimg" />
                     <div className="headdetails">
-                        <p className="headname">Vedaprakash Rajan</p>
-                        <p className="headrank">Design head</p>
+                        <p className="headname">Nityam Pareek</p>
+                        <p className="headrank">PMx & Encode Head</p>
                     </div>
                 </div>
                 <div className="headtags">
                     <img src={parth} alt="mike" className="aboutimg" />
                     <div className="headdetails">
-                        <p className="headname">Vedaprakash Rajan</p>
-                        <p className="headrank">Design head</p>
+                        <p className="headname">Parth Songire</p>
+                        <p className="headrank">Initiatives Head</p>
                     </div>
                 </div>
                 <div className="headtags">
                     <img src={shivam} alt="mike" className="aboutimg" />
                     <div className="headdetails">
-                        <p className="headname">Vedaprakash Rajan</p>
-                        <p className="headrank">Design head</p>
+                        <p className="headname">Shivam Agarwal</p>
+                        <p className="headrank">Internfair Head</p>
                     </div>
                 </div>
                 <div className="headtags">
                     <img src={sneha} alt="mike" className="aboutimg" />
                     <div className="headdetails">
-                        <p className="headname">Vedaprakash Rajan</p>
-                        <p className="headrank">Design head</p>
+                        <p className="headname">Sneha Singh</p>
+                        <p className="headrank">Convenor</p>
                     </div>
                 </div>
                 <div className="headtags">
                     <img src={yash} alt="mike" className="aboutimg" />
                     <div className="headdetails">
-                        <p className="headname">Vedaprakash Rajan</p>
-                        <p className="headrank">Design head</p>
+                        <p className="headname">Yash Chauhan</p>
+                        <p className="headrank">Design Head</p>
                     </div>
                 </div>
             </div>
 
-            
+            <div className="modulesection">
+
             <div className="module">MODULES</div>
-            <div className="modulegrid">
-                <div className="moduletags">
-                    <img src={teamphoto} alt="mike" className="moduleimg" />
-                    <div className="moduledetails">
-                        <p className="modulename">Design</p>
-                        <p className="manager">Managers</p>
-                        <ul className="managerlist">
-                            <li>Lorem, ipsum dolor.</li>
-                            <li>Lorem, ipsum dolor.</li>
-                            <li>Lorem, ipsum dolor.</li>
-                            <li>Lorem, ipsum dolor.</li>
-                        </ul>
+                <div className="modulegrid">
+                    <div className="moduletags">
+                        <img src={teamphoto} alt="mike" className="moduleimg" />
+                        <div className="moduledetails">
+                            <p className="modulename">Design</p>
+                            <p className="manager">Managers</p>
+                            <ul className="managerlist">
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="moduletags">
+                        <img src={teamphoto} alt="mike" className="moduleimg" />
+                        <div className="moduledetails">
+                            <p className="modulename">PMx</p>
+                            <p className="manager">Managers</p>
+                            <ul className="managerlist">
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="moduletags">
+                        <img src={teamphoto} alt="mike" className="moduleimg" />
+                        <div className="moduledetails">
+                            <p className="modulename">Disrupt</p>
+                            <p className="manager">Managers</p>
+                            <ul className="managerlist">
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="moduletags">
+                        <img src={teamphoto} alt="mike" className="moduleimg" />
+                        <div className="moduledetails">
+                            <p className="modulename">INA</p>
+                            <p className="manager">Managers</p>
+                            <ul className="managerlist">
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="moduletags">
+                        <img src={teamphoto} alt="mike" className="moduleimg" />
+                        <div className="moduledetails">
+                            <p className="modulename">PR & B</p>
+                            <p className="manager">Managers</p>
+                            <ul className="managerlist">
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="moduletags">
+                        <img src={teamphoto} alt="mike" className="moduleimg" />
+                        <div className="moduledetails">
+                            <p className="modulename">Startup Expo</p>
+                            <p className="manager">Managers</p>
+                            <ul className="managerlist">
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="moduletags">
+                        <img src={teamphoto} alt="mike" className="moduleimg" />
+                        <div className="moduledetails">
+                            <p className="modulename">LS</p>
+                            <p className="manager">Managers</p>
+                            <ul className="managerlist">
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="moduletags">
+                        <img src={teamphoto} alt="mike" className="moduleimg" />
+                        <div className="moduledetails">
+                            <p className="modulename">Marky</p>
+                            <p className="manager">Managers</p>
+                            <ul className="managerlist">
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="moduletags">
+                        <img src={teamphoto} alt="mike" className="moduleimg" />
+                        <div className="moduledetails">
+                            <p className="modulename">Sparkle</p>
+                            <p className="manager">Managers</p>
+                            <ul className="managerlist">
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="moduletags">
+                        <img src={teamphoto} alt="mike" className="moduleimg" />
+                        <div className="moduledetails">
+                            <p className="modulename">IF</p>
+                            <p className="manager">Managers</p>
+                            <ul className="managerlist">
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="moduletags">
+                        <img src={teamphoto} alt="mike" className="moduleimg" />
+                        <div className="moduledetails">
+                            <p className="modulename">NED</p>
+                            <p className="manager">Managers</p>
+                            <ul className="managerlist">
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <div className="moduletags">
-                    <img src={teamphoto} alt="mike" className="moduleimg" />
-                    <div className="moduledetails">
-                        <p className="modulename">Design</p>
-                        <p className="manager">Managers</p>
-                        <ul className="managerlist">
-                            <li>Lorem, ipsum dolor.</li>
-                            <li>Lorem, ipsum dolor.</li>
-                            <li>Lorem, ipsum dolor.</li>
-                            <li>Lorem, ipsum dolor.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div className="moduletags">
-                    <img src={teamphoto} alt="mike" className="moduleimg" />
-                    <div className="moduledetails">
-                        <p className="modulename">Design</p>
-                        <p className="manager">Managers</p>
-                        <ul className="managerlist">
-                            <li>Lorem, ipsum dolor.</li>
-                            <li>Lorem, ipsum dolor.</li>
-                            <li>Lorem, ipsum dolor.</li>
-                            <li>Lorem, ipsum dolor.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div className="moduletags">
-                    <img src={teamphoto} alt="mike" className="moduleimg" />
-                    <div className="moduledetails">
-                        <p className="modulename">Design</p>
-                        <p className="manager">Managers</p>
-                        <ul className="managerlist">
-                            <li>Lorem, ipsum dolor.</li>
-                            <li>Lorem, ipsum dolor.</li>
-                            <li>Lorem, ipsum dolor.</li>
-                            <li>Lorem, ipsum dolor.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div className="moduletags">
-                    <img src={teamphoto} alt="mike" className="moduleimg" />
-                    <div className="moduledetails">
-                        <p className="modulename">Design</p>
-                        <p className="manager">Managers</p>
-                        <ul className="managerlist">
-                            <li>Lorem, ipsum dolor.</li>
-                            <li>Lorem, ipsum dolor.</li>
-                            <li>Lorem, ipsum dolor.</li>
-                            <li>Lorem, ipsum dolor.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div className="moduletags">
-                    <img src={teamphoto} alt="mike" className="moduleimg" />
-                    <div className="moduledetails">
-                        <p className="modulename">Design</p>
-                        <p className="manager">Managers</p>
-                        <ul className="managerlist">
-                            <li>Lorem, ipsum dolor.</li>
-                            <li>Lorem, ipsum dolor.</li>
-                            <li>Lorem, ipsum dolor.</li>
-                            <li>Lorem, ipsum dolor.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div className="moduletags">
-                    <img src={teamphoto} alt="mike" className="moduleimg" />
-                    <div className="moduledetails">
-                        <p className="modulename">Design</p>
-                        <p className="manager">Managers</p>
-                        <ul className="managerlist">
-                            <li>Lorem, ipsum dolor.</li>
-                            <li>Lorem, ipsum dolor.</li>
-                            <li>Lorem, ipsum dolor.</li>
-                            <li>Lorem, ipsum dolor.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div className="moduletags">
-                    <img src={teamphoto} alt="mike" className="moduleimg" />
-                    <div className="moduledetails">
-                        <p className="modulename">Design</p>
-                        <p className="manager">Managers</p>
-                        <ul className="managerlist">
-                            <li>Lorem, ipsum dolor.</li>
-                            <li>Lorem, ipsum dolor.</li>
-                            <li>Lorem, ipsum dolor.</li>
-                            <li>Lorem, ipsum dolor.</li>
-                        </ul>
-                    </div>
-                </div>
-                
             </div>
         </div>
 
