@@ -158,10 +158,10 @@ export const About_us = () => {
                             <p className="modulename">Disrupt</p>
                             <p className="manager">Managers</p>
                             <ul className="managerlist">
-                                <li>Lorem, ipsum dolor.</li>
-                                <li>Lorem, ipsum dolor.</li>
-                                <li>Lorem, ipsum dolor.</li>
-                                <li>Lorem, ipsum dolor.</li>
+                                <li>Mansi Gupta </li>
+                                <li>Rahul Kumar</li>
+                                <li>Heet </li>
+                                <li>Shanu </li>
                             </ul>
                         </div>
                     </div>
@@ -171,10 +171,17 @@ export const About_us = () => {
                             <p className="modulename">INA</p>
                             <p className="manager">Managers</p>
                             <ul className="managerlist">
-                                <li>Lorem, ipsum dolor.</li>
-                                <li>Lorem, ipsum dolor.</li>
-                                <li>Lorem, ipsum dolor.</li>
-                                <li>Lorem, ipsum dolor.</li>
+                            <li>Drishti</li>
+                            <li>Ayush Singh</li>
+                            <li>Aniket Gupta</li>
+                            <li>Jasmine </li>
+                            <li>Ayush Mishra </li>
+                            <li>Devesh Kamble </li>
+                            <li>Manas Sinha </li>
+                            <li>Sahil Mangtani</li>
+                            <li>Ayush Singh </li>
+                            <li>Akshat Tilak </li>
+                            <li>Hemal Vadaliya</li>
                             </ul>
                         </div>
                     </div>
@@ -246,13 +253,20 @@ export const About_us = () => {
                     <div className="moduletags">
                         <img src={teamphoto} alt="mike" className="moduleimg" />
                         <div className="moduledetails">
-                            <p className="modulename">IF</p>
+                            <p className="modulename">InternFair</p>
                             <p className="manager">Managers</p>
                             <ul className="managerlist">
-                                <li>Lorem, ipsum dolor.</li>
-                                <li>Lorem, ipsum dolor.</li>
-                                <li>Lorem, ipsum dolor.</li>
-                                <li>Lorem, ipsum dolor.</li>
+                                <li>Divyansh Chandak</li>
+                                <li>Arya Pandey</li>
+                                <li>Ishika Bohra</li>
+                                <li>Ayush Lohia</li>
+                                <li>Sanat Nagpal</li>
+                                <li>Prakhar Punj</li>
+                                <li>Yoshita Banerjee</li>
+                                <li>Shresth Rai</li>
+                                <li>Shikhar Mishra</li>
+                                <li>Shubhamdeep Lamba</li>
+                                <li>Anurag Jha</li>
                             </ul>
                         </div>
                     </div>

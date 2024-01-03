@@ -63,9 +63,9 @@ const Udgam = () => {
                     </div>
                 </div>
                 <div className="tilt">
-                    <div className="tilt__content">
+                    <a href='/BuyPass' className="tilt__content">
                         <img src={UdgamPass} alt="UDGAM24Purp"/>
-                    </div>
+                    </a>
                 </div>
                 <div className="benefitright">
                     <div className="b3">

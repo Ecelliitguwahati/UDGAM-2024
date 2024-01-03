@@ -1,3 +1,9 @@
+import "../styles/schedule.css";
+
 export const BuyPass=()=>{
-    return (<h1>buy_pass</h1>)
+    return (
+        <div className="schedule">
+            <h1>Coming soon...</h1>
+        </div>
+    )
 }

@@ -1,3 +1,9 @@
+import "../styles/schedule.css";
+
 export const Schedule=()=>{
-    return (<h1>Schedule</h1>)
+    return (
+        <div className="schedule">
+            <h1>Coming soon...</h1>
+        </div>
+    )
 }
