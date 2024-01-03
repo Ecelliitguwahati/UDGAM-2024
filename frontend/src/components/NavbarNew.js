@@ -2,14 +2,30 @@ import "../styles/NavbarNew.css"
 import {FaBars, FaTimes} from "react-icons/fa";
 import logo1 from '../images/Udgam Rhombus.png';
 import Pass from '../images/BuyPass.png';
-import React, { useState } from 'react'
-import { NavLink, Link } from "react-router-dom"
+import React, { useState,useEffect } from 'react'
+import { NavLink, Link ,useLocation} from "react-router-dom"
+import {gsap,CSSPlugin} from 'gsap';
+gsap.registerPlugin(CSSPlugin);
 const Navbar = () => {
+  
     const [click, setClick] = useState(false);
+    const location = useLocation();
+
+
     const handleClick = () => {
         console.log("clicked");
         setClick(!click);
     }
+
+
+    useEffect(() => {
+    // Check if it's the homepage before applying the animation
+    if (location.pathname === "/") {
+      gsap.set('.header', { y: -110 });
+      const timeline = gsap.timeline();
+      timeline.to('.header', { y: 0, duration: .5, ease: 'linear' }, '+=5');
+    }
+  }, [location.pathname]);
 
   return (
     <div className="header">

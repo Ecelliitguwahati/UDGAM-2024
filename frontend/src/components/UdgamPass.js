@@ -42,6 +42,7 @@ const Udgam = () => {
     // Tilt Animation End
 
     return ( 
+        
         <div className="whIsUdg">
             <div className="UdgamPass">
                 <div className="benefitleft">
