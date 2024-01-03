@@ -61,7 +61,7 @@ export const Preloader =()=>{
         // gsap.set('.box3',{opacity:0,y:150,display:'none'});
         // gsap.set('.box4',{opacity:0,y:150,display:'none'});
 
-       gsap.set('.backgroundvideo',{y:470});
+       gsap.set('.backgroundvideo',{y:570});
 
         const video1 = document.querySelector('.UDGAM');
         // const video2 = document.querySelector('.backgroundvideo');
@@ -97,7 +97,7 @@ export const Preloader =()=>{
             const elementsToRemove = document.querySelectorAll('.loading, .ProgressBar, .count');
             elementsToRemove.forEach((element) => element.remove());
           },});
-        timeline.to(video1,(mediaQuery.matches?{scale:1,duration:1,y:-200}:{scale:0.5,duration:1,y:-160}));
+        timeline.to(video1,(mediaQuery.matches?{scale:1,duration:1,y:-200}:{scale:0.9,duration:1,y:-150}));
         timeline.to('.navbar',{opacity:1,duration: 0.5,y:0});
         timeline.to('.preloader',(mediaQuery.matches?{height:"20vh"}:{}),"-=0.5");
         timeline.to('.backgroundvideo',{y:20},'-=1');

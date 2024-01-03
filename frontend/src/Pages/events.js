@@ -140,7 +140,7 @@ export const Events = () => {
                     <img src={mike} alt="mike" className="eventimg" />
                     <p className="eventname">NEC</p>
                     <p className="eventdesc1">North East Conference</p>
-                    <p className="eventdesc2">Minutes of the spotlight to showcase your entrepreneurship and pitching skills exclusive for young teenagers. Sparkle is a pitching ground for school students and an opportunity to show themselves under the unwavering attention of the whole panel, including various Angel Investors and Venture Capitalists, to put their startup idea.</p>
+                    <p className="eventdesc2">A platform for all the Northeast E-Cells to discuss on building a community of like-minded individuals, planning initiatives and programs to boost the startup ecosystem in the region, and discussing the impacts and prospects of entrepreneurship in the Northeast.</p>
                     
                 </div>
             </div>

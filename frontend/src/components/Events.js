@@ -25,14 +25,14 @@ const Events = () => {
             tag.addEventListener('mouseenter', () => {
                 tl.play();
                 tag.querySelector('.eventdesc2').style.display = 'block';
-                tag.querySelector('.register').style.display = 'block';
+                // tag.querySelector('.register').style.display = 'block';
             }
             
             );
             tag.addEventListener('mouseleave', () => {
                 tl.reverse(0);
                 tag.querySelector('.eventdesc2').style.display = 'none';
-                tag.querySelector('.register').style.display = 'none';
+                // tag.querySelector('.register').style.display = 'none';
             }
             );
 
@@ -40,13 +40,13 @@ const Events = () => {
                 tag.removeEventListener('mouseenter', () => {
                     tl.play();
                     tag.querySelector('.eventdesc2').style.display = 'block';
-                    tag.querySelector('.register').style.display = 'block';
+                    // tag.querySelector('.register').style.display = 'block';
                 }
                 );
                 tag.removeEventListener(() => {
                     tl.reverse(0);
                     tag.querySelector('.eventdesc2').style.display = 'none';
-                    tag.querySelector('.register').style.display = 'none';
+                    // tag.querySelector('.register').style.display = 'none';
                 }
                 );
             };
@@ -69,18 +69,18 @@ const Events = () => {
                     <a href="#" alt="" className='register'>Register</a>
                 </div>
                 <div className="tags">
-                    <img src={pmx} alt="mike" className="eventimg" />
-                    <p className="eventname">PMx</p>
-                    <p className="eventdesc1">The Product Management Expedition</p>
-                    <p className="eventdesc2">PMx is India's largest product case study competition. One has to bring out his observational, analytical, and researcher instinct and pour them out on the problem statement we provide. It is an item contextual analysis rivalry where you will encounter the adventure of chipping away at an item, rowing the product cycle, and making an incredible product that your clients will adore.</p>
-                    <a href="#" alt="" className='register'>Register</a>
+                    <img src={mike} alt="mike" className="eventimg" />
+                    <p className="eventname">Disrupt</p>
+                    <p className="eventdesc1">North-East India's largest Startup Bootcamp</p>
+                    <p className="eventdesc2">DISRUPT is a growth-oriented startup boot camp that adopts an inclusive approach designed to provide a competitive edge accommodating startups of all stages and backgrounds.</p>
+                    
                 </div>
                 <div className="tags">
-                    <img src={encode} alt="mike" className="eventimg" />
-                    <p className="eventname">Encode</p>
-                    <p className="eventdesc1">Code to Innovate</p>
-                    <p className="eventdesc2">An entrepreneur's task is to solve real-life real-world problems by developing a feasible solution that caters to everyone's needs be it the users or the market. Focussing on this, Encode is a development hackathon where you will be provided with a real-life problem and you have to devise a solution for it.</p>
-                    <a href="#" alt="" className='register'>Register</a>
+                    <img src={mike} alt="mike" className="eventimg" />
+                    <p className="eventname">NED</p>
+                    <p className="eventdesc1">National Entrepreneurship Drive</p>
+                    <p className="eventdesc2">NED is our latest initiative where we aim to promote the entrepreneur environment and startup urge by helping institutes of India set up their own Entrepreneurship Cells in their institutes.</p>
+                    
                 </div>
             </div>
         </div>
