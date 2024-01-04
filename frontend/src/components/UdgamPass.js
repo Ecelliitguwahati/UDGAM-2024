@@ -46,7 +46,9 @@ const Udgam = () => {
     return ( 
         
         <div className="whIsUdg">
-            <img src={platformMobile} alt="platform" className='platform'/>
+            <div className='platformdiv'>
+                <img src={platformMobile} alt="platform" className='platform'/>
+            </div>
             <div className="UdgamPass">
                 <div className="benefitleft">
                     <div className="b1">

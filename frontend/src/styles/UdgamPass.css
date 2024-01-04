@@ -136,7 +136,7 @@
     rotate: 180deg;
 }
 
-.platform{
+.platformdiv{
     display: none;
 }
 
@@ -151,12 +151,20 @@
     .tilt {
         width: 60vw;
     }
+    .platformdiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 50vh;
+    }
 
     .platform{
         display: block;
         width: 120%;
         object-fit: contain;
-        margin-top: -5rem;
+        margin-top: 0rem;
     }
 
     .UdgamPass{
