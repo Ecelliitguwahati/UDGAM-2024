@@ -120,13 +120,15 @@
     align-items: center; 
     justify-content: center;
 }
+
+
 .eventname{
     position: relative;
     z-index: 2;
     font-size: 40px;
     font-family: "Grtsk";
     font-weight: 700;
-    color: rgba(91, 91, 91, 1);
+    color:rgba(91, 91, 91, 1);
     margin: 0;
     padding: 0;
     background-color:rgba(254, 254, 254, 0.5); 
@@ -156,7 +158,7 @@
     font-size: 19px;
     font-family: "Grtsk";
     font-weight: 400;
-    color:  rgba(65, 65, 65, 1);
+    color:rgba(91, 91, 91, 1);
     margin: 0;
     top: 8rem;
     background-color:rgba(254, 254, 254, 0.5); 
@@ -239,12 +241,104 @@
     bottom: 65rem;
     right: -55rem;
 }
+#if{
+    background-image: url( '../images/events/bg/if bg.svg');
+    color: white;
+}
+
+#if .eventname{
+    color: white !important;
+}
+#if .eventdesc1{
+    color: white !important;
+}
+#expo .eventname{
+    color: white !important;
+}
+#expo .eventdesc1{
+    color: white !important;
+}
+#disrupt .eventname{
+    color: white !important;
+}
+#disrupt .eventdesc1{
+    color: white !important;
+}
+#encode .eventname{
+    color:white !important;
+}
+#encode .eventdesc1{
+    color: white !important;
+}
+#linkedin .eventname{
+    color: white !important;
+}
+#linkedin .eventdesc1{
+    color: white !important;
+}
+#nec .eventname{
+    color: white !important;
+}
+#nec .eventdesc1{
+    color: white !important;
+}
+#ls{
+    background-image: url( '../images/events/bg/ls bg.svg');
+    color: black;
+}
+#expo{
+    background-image: url( '../images/events/bg/sexpo bg.svg');
+    color:white;
+}
+#pmx{
+    background-image: url( '../images/events/bg/pmx bg.svg');
+    color: black;
+}
+
+#encode{
+    background-image: url( '../images/events/bg/encode bg.svg');
+    color: white;
+}
+#disrupt{
+    background-image: url('../images/events/bg/disrupt bg.svg');
+    color: white;
+}
+#ned{
+    background-image: url('../images/events/bg/ned bg.svg');
+    color:black;
+}
+#nec{
+    background-image: url('../images/events/bg/nec bg.svg');
+    color: white;
+}
+#dframe{
+    background-image: url('../images/events/bg/dframe bg.svg');
+    color:black;
+}
+#fun{
+    background-image: url('../images/events/bg/fun bg.svg');
+    color: black;
+    
+}
+
+
+#sparkle{
+    background-image: url('../images/events/bg/sparkle bg.svg');
+    color:black;
+}
+#linkedin{
+    background-image: url('../images/events/bg/linkedin bg.svg');
+    color: white;
+}
 /* .scene1{
     position: relative;
     right: -57.5rem;
     bottom: 72rem;
     z-index: -1;
 } */
+/*.tags-encode{
+    background-image: url("/images/events/logo/encode.png");
+}*/
 
 @media screen and (max-width: 600px){
     .events{
