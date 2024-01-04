@@ -26,7 +26,7 @@
 
 .UDGAM{
     position: relative;
-    top: 1.6rem;  
+    top: 1.8rem;  
     z-index: 0;
     margin-left: 0px;
     padding: 0;
@@ -138,6 +138,9 @@
     top: -420px;
 }
 
+.arrow,.keyboard,.screw1,.screw2{
+    display: none !important;
+}
 
 /* .box1,.box2,.box3,.box4{
     position: relative;
