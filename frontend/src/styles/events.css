@@ -403,7 +403,7 @@
     }
     .eventimg{
         height: 8rem;
-        width: 50%;
+        width: 70%;
     }
     .sponsorimg{
         height: 8rem;
@@ -411,7 +411,7 @@
     }
     .eventname{
         font-size: 30px;
-        top: 4rem;
+        top: 10rem;
     }
     .sponsorname{
         font-size: 30px;
@@ -419,7 +419,7 @@
     }
     .eventdesc1{
         font-size: 15px;
-        top: 4rem;
+        top: 10rem;
     }
     .sponsordesc{
         font-size: 15px;
