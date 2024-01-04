@@ -164,6 +164,7 @@
     background-color:rgba(254, 254, 254, 0.5); 
     width: 100%;
     text-align: center;
+    padding: 2% 0%;
 }
 .sponsordesc{
     position: relative;
@@ -446,4 +447,16 @@
 
 .sexpo{
     background-image: url("../images/events/bg/sexpo bg.svg");
+}
+
+.ned .eventname, .ned .eventdesc1, .ned .eventdesc2{
+    color: white !important;
+}
+
+.disrupt .eventname, .disrupt .eventdesc1, .disrupt .eventdesc2{
+    color: white !important;
+}
+
+.sexpo .eventname, .sexpo .eventdesc1, .sexpo .eventdesc2{
+    color: white !important;
 }
