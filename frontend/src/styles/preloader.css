@@ -5,9 +5,11 @@
 
 
 .preloader{
+    display: flex;
+    flex-direction: column;
     font-family: sans-serif;
-    height: 100vh;
-    justify-content: center;
+    height: 120vh;
+    justify-content: flex-start;
     align-items: center;
 }
 .backgroundvideo {
@@ -24,13 +26,13 @@
 
 .UDGAM{
     position: relative;
-    top: 25px;  
+    top: 1.6rem;  
     z-index: 0;
-    margin-left: 150px;
+    margin-left: 0px;
     padding: 0;
     height: 400px;
-    width: 1200px;
-    left: 15px;
+    width: 90vw;
+    left: 0;
     border: none;
     margin-bottom: 0;
     object-fit: cover;
@@ -38,14 +40,16 @@
 .loading{
     height: 25px;
     position: relative;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
     padding: 0;
     z-index: 3;
-    top: -100px;
+    top: -80px;
     border-radius: 10px;
     border:5px solid #9779F5;
     background-color: white;
-    margin-left: 420px;
+    /* margin-left: 420px; */
     margin-bottom: 0;
     /* transition: 0.2s ease-out; */
     /* display: None; */
@@ -53,7 +57,7 @@
 .ProgressBar{
     height: 23px;
     margin-top: 1px;
-    margin-left: 1px;
+    /* margin-left: 1px; */
     
     border-radius: 5px;
     border: 0 ;
@@ -65,12 +69,13 @@
     font-size: 49px;
     font-weight: 900;
     position: relative;
-    top: -150px;
+    top: 0px;
     font-size: 50px;
+    right: 0;
     /* left: 1020px; */
     color: #9779F5;
     font-weight: 900;
-    margin-left: 1020px;
+    margin-right: 0;
     /* transform: translateY((-15px)); */
     /* display: None; */
 

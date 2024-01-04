@@ -9,50 +9,44 @@ export const Sponsors=()=>{
 
                 <div className="sponsortags">
                     <img src={mike} alt="mike" className="sponsorimg" />
-                    <p className="sponsorname">Sponsor Name</p>
-                    <p className="sponsordesc">Your Gateway to Internships</p>
+                    <p className="sponsorname">Silicon India</p>
+                    <p className="sponsordesc">Media Partner</p>
         
                 </div>
                 <div className="sponsortags">
                     <img src={mike} alt="mike" className="sponsorimg" />
-                    <p className="sponsorname">Sponsor Name</p>
-                    <p className="sponsordesc">Your Gateway to Internships</p>
+                    <p className="sponsorname">Campus Times Pune</p>
+                    <p className="sponsordesc">Online Media Partner</p>
                     
                 </div>
                 <div className="sponsortags">
                     <img src={mike} alt="mike" className="sponsorimg" />
-                    <p className="sponsorname">Sponsor Name</p>
-                    <p className="sponsordesc">Your Gateway to Internships</p>
+                    <p className="sponsorname">Khaas Khabar</p>
+                    <p className="sponsordesc">Media Partner</p>
                     
                 </div>
                 <div className="sponsortags">
                     <img src={mike} alt="mike" className="sponsorimg" />
-                    <p className="sponsorname">Sponsor Name</p>
-                    <p className="sponsordesc">Your Gateway to Internships</p>
+                    <p className="sponsorname">StartupNews.fyi</p>
+                    <p className="sponsordesc">Media Partner</p>
                     
                 </div>
                 <div className="sponsortags">
                     <img src={mike} alt="mike" className="sponsorimg" />
-                    <p className="sponsorname">Sponsor Name</p>
-                    <p className="sponsordesc">Your Gateway to Internships</p>
+                    <p className="sponsorname">TechStory</p>
+                    <p className="sponsordesc">Media Partner</p>
                     
                 </div>
                 <div className="sponsortags">
                     <img src={mike} alt="mike" className="sponsorimg" />
-                    <p className="sponsorname">Sponsor Name</p>
-                    <p className="sponsordesc">Your Gateway to Internships</p>
+                    <p className="sponsorname">Just Assam Things</p>
+                    <p className="sponsordesc">Media Partner</p>
                     
                 </div>
                 <div className="sponsortags">
                     <img src={mike} alt="mike" className="sponsorimg" />
-                    <p className="sponsorname">Sponsor Name</p>
-                    <p className="sponsordesc">Your Gateway to Internships</p>
-                    
-                </div>
-                <div className="sponsortags">
-                    <img src={mike} alt="mike" className="sponsorimg" />
-                    <p className="sponsorname">Sponsor Name</p>
-                    <p className="sponsordesc">Your Gateway to Internships</p>
+                    <p className="sponsorname">The Assam Tribune</p>
+                    <p className="sponsordesc">Media Partner</p>
                     
                 </div>
                 <div className="sponsortags">
