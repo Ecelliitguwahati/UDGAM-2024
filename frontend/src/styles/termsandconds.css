@@ -1,30 +1,36 @@
 .containerterm{
-    color: white;
-    font-size: 18px;
-    background: linear-gradient(to bottom, #1A074E 0%, #060213 100%);
- font-family: Action Sans;
-background-size: cover;
-padding: 0 120px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 90px;
+    padding-right: 90px;
+   
 }
-
-
-
 .termheading{
-    font-family: Founders Grotesk;
-    color: #FC97D9;
+    position: relative;
+    margin-top: 3rem;
+    font-family: 'Grtsk';
     font-weight: 700;
-    font-size: 64px;
-    line-height: 100%;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-    padding-top: 130px;
-    padding-bottom: 80px;
+    font-size: 50px;
+    line-height: 42.5px;
+    color: rgba(151, 121, 245, 1);
+    text-align: center;
+    margin-bottom: 4rem;
 }
-
 .headingsection{
-    font-size: 32px;
-    color:#DDF140;
-    font-weight: 400;
+    
+    margin-top: 4rem;
+    font-family: 'Grtsk';
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 42.5px;
+    color: rgba(151, 121, 245, 1);
+    text-align: left;
+    margin-bottom: 1rem;
+    justify-content: left;
+}
+.texts{
+    align-items: center;
+    padding-top: 100px;
 }
 
 @media (max-width:600px)
