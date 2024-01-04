@@ -2,6 +2,7 @@ import ts1 from '../images/Group 34571.png';
 import ts2 from '../images/Isolated_back_white_hoodie 1.png';
 import ts3 from '../images/Isolated_black_t-shirt_front 2.png';
 import ArrowHead from '../images/Arrowhead Blue.png';
+import merch from '../images/Selling Merch.png';
 import '../styles/Merchandise.css';
 
 const Merchandise = () => {
@@ -13,12 +14,10 @@ const Merchandise = () => {
             </div>
            
             <div className="tshirt">
-            <img className='ts2' src={ts2} alt="logo1" />
-            <img className='ts1' src={ts1} alt="logo1" />
-            <img className='ts3' src={ts3} alt="logo1" />
+                <img src={merch} alt="merch" className='merchimg'/>
             </div>
             <div className="want">
-            <button className="wantMerch">I want them !</button>
+            <a href='https://forms.gle/9KsquXS89S74aH8n8' className="wantMerch" target='_blank' rel='noreferrer'>I want them !</a>
             <img className="Arrowhead" src={ArrowHead} alt="Logo" />
             </div>
             

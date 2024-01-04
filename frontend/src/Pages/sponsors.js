@@ -9,62 +9,74 @@ export const Sponsors=()=>{
 
                 <div className="sponsortags">
                     <img src={mike} alt="mike" className="sponsorimg" />
-                    <p className="eventname">Sponsor Name</p>
+                    <p className="sponsorname">Sponsor Name</p>
+                    <p className="sponsordesc">Your Gateway to Internships</p>
         
                 </div>
                 <div className="sponsortags">
                     <img src={mike} alt="mike" className="sponsorimg" />
-                    <p className="eventname">Sponsor Name</p>
+                    <p className="sponsorname">Sponsor Name</p>
+                    <p className="sponsordesc">Your Gateway to Internships</p>
                     
                 </div>
                 <div className="sponsortags">
                     <img src={mike} alt="mike" className="sponsorimg" />
-                    <p className="eventname">Sponsor Name</p>
+                    <p className="sponsorname">Sponsor Name</p>
+                    <p className="sponsordesc">Your Gateway to Internships</p>
                     
                 </div>
                 <div className="sponsortags">
                     <img src={mike} alt="mike" className="sponsorimg" />
-                    <p className="eventname">Sponsor Name</p>
+                    <p className="sponsorname">Sponsor Name</p>
+                    <p className="sponsordesc">Your Gateway to Internships</p>
                     
                 </div>
                 <div className="sponsortags">
                     <img src={mike} alt="mike" className="sponsorimg" />
-                    <p className="eventname">Sponsor Name</p>
+                    <p className="sponsorname">Sponsor Name</p>
+                    <p className="sponsordesc">Your Gateway to Internships</p>
                     
                 </div>
                 <div className="sponsortags">
                     <img src={mike} alt="mike" className="sponsorimg" />
-                    <p className="eventname">Sponsor Name</p>
+                    <p className="sponsorname">Sponsor Name</p>
+                    <p className="sponsordesc">Your Gateway to Internships</p>
                     
                 </div>
                 <div className="sponsortags">
                     <img src={mike} alt="mike" className="sponsorimg" />
-                    <p className="eventname">Sponsor Name</p>
+                    <p className="sponsorname">Sponsor Name</p>
+                    <p className="sponsordesc">Your Gateway to Internships</p>
                     
                 </div>
                 <div className="sponsortags">
                     <img src={mike} alt="mike" className="sponsorimg" />
-                    <p className="eventname">Sponsor Name</p>
+                    <p className="sponsorname">Sponsor Name</p>
+                    <p className="sponsordesc">Your Gateway to Internships</p>
                     
                 </div>
                 <div className="sponsortags">
                     <img src={mike} alt="mike" className="sponsorimg" />
-                    <p className="eventname">Sponsor Name</p>
+                    <p className="sponsorname">Sponsor Name</p>
+                    <p className="sponsordesc">Your Gateway to Internships</p>
                     
                 </div>
                 <div className="sponsortags">
                     <img src={mike} alt="mike" className="sponsorimg" />
-                    <p className="eventname">Sponsor Name</p>
+                    <p className="sponsorname">Sponsor Name</p>
+                    <p className="sponsordesc">Your Gateway to Internships</p>
                     
                 </div>
                 <div className="sponsortags">
                     <img src={mike} alt="mike" className="sponsorimg" />
-                    <p className="eventname">Sponsor Name</p>
+                    <p className="sponsorname">Sponsor Name</p>
+                    <p className="sponsordesc">Your Gateway to Internships</p>
                     
                 </div>
                 <div className="sponsortags">
                     <img src={mike} alt="mike" className="sponsorimg" />
-                    <p className="eventname">Sponsor Name</p>
+                    <p className="sponsorname">Sponsor Name</p>
+                    <p className="sponsordesc">Your Gateway to Internships</p>
                     
                 </div>
             </div>
