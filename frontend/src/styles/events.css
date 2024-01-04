@@ -74,6 +74,12 @@
     background-color:rgba(206, 197, 236, 0.5);
 }
 
+.sponsortags{
+    height: 474px;
+    width: 385px;
+    background-color:rgba(206, 197, 236, 0.5);
+}
+
 .eventgrid-home div{
     height: 474px;
     width: 385px;
@@ -88,6 +94,16 @@
     
    
 }
+
+.sponsorimg{
+    height: 16rem;
+    position: absolute;
+    width: 80%;
+    z-index: 1;
+    
+   
+}
+
 .tags{
     position: relative;
     display: flex;
@@ -95,6 +111,14 @@
     align-items: center; 
     justify-content: center;
    
+}
+
+.sponsortags{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
 }
 .eventname{
     position: relative;
@@ -246,11 +270,19 @@
         width: 90%;
         height: 60vh;
     }
+    .sponsortags{
+        width: 100%;
+        height: 40vh !important;
+    }
     .eventgrid-home div{
         width: 90%;
         height: 60vh;
     }
     .eventimg{
+        height: 8rem;
+        width: 50%;
+    }
+    .sponsorimg{
         height: 8rem;
         width: 50%;
     }

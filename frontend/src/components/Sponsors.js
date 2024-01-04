@@ -9,15 +9,21 @@ const Sponsers = () => {
             <img src={coinpurple} alt="coinpurple" className="coinpurple" />
             </div>
              <div className="SponList">
-                <div className='spname'></div>
-                <div className='spname'></div>
-                <div className='spname'></div>
+                <div className='spname'>
+
+                </div>
+                <div className='spname'>
+
+                </div>
+                <div className='spname'>
+
+                </div>
              </div>
             <div className="coin">
             <img src={coinpurple} alt="coinpurple" className="coinpurpl" />
             </div>
              
-             <a href="/" className="samosa">
+             <a href="/Sponsors" className="samosa">
                 <div className="viewall">
                 View all Sponsors
                 </div>

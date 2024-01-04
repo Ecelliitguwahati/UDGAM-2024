@@ -12,6 +12,9 @@ import {BuyPass} from "./Pages/buy_pass"
 import {Home} from "./Pages/homepage"
 import Footer from './components/Footer';
 import { Helmet } from 'react-helmet';
+import TnC from './Pages/TnC';
+import Refund from './Pages/Refund';
+import Privacy from './Pages/Privacy';
 
 function App() {
   
@@ -32,6 +35,10 @@ function App() {
           <Route path="/Sponsors" element={<Sponsors/>} />
           <Route path="/About_us" element={<About_us/>} />
           <Route path="/BuyPass" element={<BuyPass/>} />
+          <Route path="/TnC" element={<TnC/>} />
+          <Route path="/Refund" element={<Refund/>} />
+          <Route path="/Privacy" element={<Privacy/>} />
+          <Route path="*" element={<Home/>} />
         </Routes>
         <Footer/>
     </div>

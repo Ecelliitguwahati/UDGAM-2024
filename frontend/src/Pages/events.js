@@ -106,7 +106,7 @@ export const Events = () => {
                     <p className="eventname">D-Frame</p>
                     <p className="eventdesc1">UI/UX challenge blending Creativity & Coherence</p>
                     <p className="eventdesc2">DFrame is aimed to inculcate and enhance one's creativity with the business need of companies, and test the designer's innovative quotient to find technical solutions while staying true to the human-centric approach.</p>
-                    <a href="https://unstop.com/competitions/dframe-uiux-creative-branding-challenge-udgam-2024-iit-guwahati-846851" alt="" className='register'>Register</a>
+                    
                 </div>
                 <div className="tags">
                     <img src={mike} alt="mike" className="eventimg" />

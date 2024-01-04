@@ -12,7 +12,7 @@ import UdgamPass from '../images/UdgamPass.png'
 import platformMobile from '../images/platform mobile.jpg'
 
 const Udgam = () => {
-    setTimeout(5000);
+    setTimeout(5000); // 7 seconds = Thala for a reason
 
     // Tilt Animation
     useEffect(() => {

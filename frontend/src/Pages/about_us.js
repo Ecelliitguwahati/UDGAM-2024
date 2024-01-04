@@ -132,10 +132,18 @@ export const About_us = () => {
                             <p className="modulename">Design</p>
                             <p className="manager">Managers</p>
                             <ul className="managerlist">
-                                <li>Lorem, ipsum dolor.</li>
-                                <li>Lorem, ipsum dolor.</li>
-                                <li>Lorem, ipsum dolor.</li>
-                                <li>Lorem, ipsum dolor.</li>
+                                <li>Arunav Deka </li>
+                                <li>Mathan Raj</li>
+                                <li>Aryan Patel</li>
+                                <li>Sanskar Ughade</li>
+                                <li>C K Soorya</li>
+                                <li>Dharshan G S</li>
+                                <li>Bhuvanaa S</li>
+                                <li>Suraj Kumar</li>
+                                <li>Tarun Raj</li>
+                                <li>Sparshika Mane</li>
+                                <li>Savvy Thomas</li>
+                                <li>Amol Satheesh</li>
                             </ul>
                         </div>
                     </div>
@@ -162,8 +170,8 @@ export const About_us = () => {
                             <ul className="managerlist">
                                 <li>Mansi Gupta </li>
                                 <li>Rahul Kumar</li>
-                                <li>Heet </li>
-                                <li>Shanu </li>
+                                <li>Heet Patel </li>
+                                <li>Shanu Sengar</li>
                             </ul>
                         </div>
                     </div>
@@ -193,10 +201,13 @@ export const About_us = () => {
                             <p className="modulename">PR & B</p>
                             <p className="manager">Managers</p>
                             <ul className="managerlist">
-                                <li>Lorem, ipsum dolor.</li>
-                                <li>Lorem, ipsum dolor.</li>
-                                <li>Lorem, ipsum dolor.</li>
-                                <li>Lorem, ipsum dolor.</li>
+                                <li>Anirban Ghosh</li>
+                                <li>Ayushi Mittal</li>
+                                <li>Sitesh Goyal</li>
+                                <li>Sandilya Bonu</li>
+                                <li>Uttam Kumar Choudhary</li>
+                                <li>Raunit Patel</li>
+                                <li>Abhideep Bishui</li>
                             </ul>
                         </div>
                     </div>
@@ -206,10 +217,13 @@ export const About_us = () => {
                             <p className="modulename">Startup Expo</p>
                             <p className="manager">Managers</p>
                             <ul className="managerlist">
-                                <li>Lorem, ipsum dolor.</li>
-                                <li>Lorem, ipsum dolor.</li>
-                                <li>Lorem, ipsum dolor.</li>
-                                <li>Lorem, ipsum dolor.</li>
+                                <li>Vedangi Jawade</li>
+                                <li>Elika</li>
+                                <li>Harsh Agarwal</li>
+                                <li>Yashika Kumawat</li>
+                                <li>Adarsh Kumar</li>
+                                <li>Aryan Agrawal</li>
+                                <li>Anushka Verma</li>
                             </ul>
                         </div>
                     </div>
