@@ -73,12 +73,12 @@ export const Preloader =()=>{
 
 
         // Animation for the loading width
-        timeline.to('.loading', { opacity: 1,scale:1,width: mediaQuery.matches ? '330px' : '680px', duration: 0.75, ease: 'linear' });
+        timeline.to('.loading', { opacity: 1,scale:1,width: mediaQuery.matches ? '90vw' : '50vw', duration: 0.75, ease: 'linear' });
                 
                 
         //Animation for video and ProgressBar
         timeline.to(video1,{onStart: () => video1.play()})
-                .to('.ProgressBar', { width: mediaQuery.matches ? '90vw' : '90vw', duration: 2.5, ease: 'linear' })
+                .to('.ProgressBar', { width: mediaQuery.matches ? '90vw' : '50vw', duration: 2.75, ease: 'linear' })
                 .to('.count', { opacity: 1, duration: 1, ease: 'linear'},'-=2.75')
                 .add(counterTimeline,'-=2.75');
 
@@ -97,7 +97,7 @@ export const Preloader =()=>{
             const elementsToRemove = document.querySelectorAll('.loading, .ProgressBar, .count');
             elementsToRemove.forEach((element) => element.remove());
           },});
-        timeline.to(video1,(mediaQuery.matches?{scale:1.5,duration:1,y:-200}:{scale:0.8,duration:1,y:-150}));
+        timeline.to(video1,(mediaQuery.matches?{scale:1,duration:1,y:-200}:{scale:0.8,duration:1,y:-150}));
         timeline.to('.navbar',{opacity:1,duration: 0.5,y:0});
         timeline.to('.preloader',(mediaQuery.matches?{height:"20vh"}:{}),"-=0.5");
         timeline.to('.backgroundvideo',{y:20},'-=1');
@@ -135,7 +135,9 @@ export const Preloader =()=>{
             
             <div className = 'loading'>
                 <div className='ProgressBar' ></div>
-                <p className='count'>{counter}</p>
+                <div className='countdiv'>
+                    <p className='count'>{counter}</p>
+                </div>
             </div>
 
             {/* <div className="tilts">
