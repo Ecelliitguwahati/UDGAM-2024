@@ -271,7 +271,7 @@
         height: 60vh;
     }
     .sponsortags{
-        width: 100%;
+        width: 120% !important;
         height: 40vh !important;
     }
     .eventgrid-home div{
