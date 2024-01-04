@@ -45,9 +45,9 @@ const Footer = () => {
      
     </div>
      <div className="lower">
-        <a href="/" target='_blank'>Terms & Conditions</a>
-        <a href="/" target='_blank'>Privacy Policy</a>
-        <a href="/" target='_blank'>Refund Policy</a>
+        <a href="/TnC" target='_blank'>Terms & Conditions</a>
+        <a href="/Privacy" target='_blank'>Privacy Policy</a>
+        <a href="/Refund" target='_blank'>Refund Policy</a>
       </div>
    </>
   )

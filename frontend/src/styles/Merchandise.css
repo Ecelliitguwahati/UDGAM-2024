@@ -70,7 +70,7 @@
   .wantMerch {
     width: 240px;
     /* height: 60px; */
-    margin-left: 180px;
+    /* margin-left: 180px; */
     text-align: center;
     font-size: 32px;
     padding: 2%;
@@ -118,11 +118,16 @@
     .wantMerch {
         font-size: 20px;
         width: 180px;
-        height: 50px;
+        padding: 4%;
         margin: 0;
     }
 
+    .merchimg {
+        width: 90%;
+        height: 100%;
+    }
+
     .Arrowhead{
-        display: none;
+        height: 80px;
     }
 }

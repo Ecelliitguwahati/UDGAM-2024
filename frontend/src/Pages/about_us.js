@@ -16,7 +16,7 @@ import shivam from "../images/team/shivam.jpeg";
 import sneha from "../images/team/sneha.jpeg";
 import yash from "../images/team/yash.jpeg";
 
-export const About_us = () => {
+export const AboutUs = () => {
 
     return (
         <div className="aboutpage">

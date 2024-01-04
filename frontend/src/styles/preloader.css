@@ -183,8 +183,8 @@
         margin-left: 0px;
         padding: 0;
         height: 400px;
-        width: 450px;
-        left: -1.5rem;
+        width: 100vw;
+        left: 0;
         border: none;
         margin-bottom: 0;
         object-fit: cover;

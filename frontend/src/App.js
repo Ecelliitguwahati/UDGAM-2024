@@ -7,7 +7,7 @@ import {Route,Routes} from "react-router-dom"
 import {Schedule} from "./Pages/schedule"
 import {Events} from "./Pages/events"
 import { Sponsors } from './Pages/sponsors';
-import {About_us} from "./Pages/about_us"
+import {AboutUs} from "./Pages/about_us"
 import {BuyPass} from "./Pages/buy_pass"
 import {Home} from "./Pages/homepage"
 import Footer from './components/Footer';
@@ -33,7 +33,7 @@ function App() {
           <Route path="/Schedule" element={<Schedule/>} />
           <Route path="/Events" element={<Events/>} />
           <Route path="/Sponsors" element={<Sponsors/>} />
-          <Route path="/About_us" element={<About_us/>} />
+          <Route path="/About_us" element={<AboutUs/>} />
           <Route path="/BuyPass" element={<BuyPass/>} />
           <Route path="/TnC" element={<TnC/>} />
           <Route path="/Refund" element={<Refund/>} />
