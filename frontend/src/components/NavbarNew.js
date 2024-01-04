@@ -29,7 +29,9 @@ const Navbar = () => {
 
   return (
     <div className="header">
-            <img src={logo1} alt="" className="img"/>
+        <a href="/">
+          <img src={logo1} alt="" className="img"/>
+        </a>
         <ul className={click ? "nav-menu active": "nav-menu"}>
         <Link to="/" onClick={handleClick} >Home</Link>
 

@@ -411,7 +411,7 @@
     }
     .eventname{
         font-size: 30px;
-        top: 10rem;
+        top: 8rem;
     }
     .sponsorname{
         font-size: 30px;
@@ -419,14 +419,14 @@
     }
     .eventdesc1{
         font-size: 15px;
-        top: 10rem;
+        top: 8rem;
     }
     .sponsordesc{
         font-size: 15px;
         top: 7rem;
     }
     .eventdesc2{
-        top: 4rem;
+        top: 8rem;
     }
     .register{
         top: 5rem;
