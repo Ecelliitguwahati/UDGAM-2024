@@ -229,8 +229,8 @@
     }
     .ProgressBar{
         height: 23px;
-        margin-top: 1px;
-        margin-left: 1px;
+        /* margin-top: 1px;
+        margin-left: 1px; */
         width: 0px;
         border-radius: 5px;
         border: 0 ;

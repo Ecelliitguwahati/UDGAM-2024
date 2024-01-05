@@ -78,13 +78,13 @@ export const Preloader =()=>{
                 
         //Animation for video and ProgressBar
         timeline.to(video1,{onStart: () => video1.play()})
-                .to('.ProgressBar', { width: mediaQuery.matches ? '90vw' : '50vw', duration: 2.75, ease: 'linear' })
-                .to('.count', { opacity: 1, duration: 1, ease: 'linear'},'-=2.75')
-                .add(counterTimeline,'-=2.75');
+                .to('.ProgressBar', { width: mediaQuery.matches ? '90vw' : '50vw', duration: 4.75, ease: 'linear' })
+                .to('.count', { opacity: 1, duration: 1, ease: 'linear'},'-=4.75')
+                .add(counterTimeline,'-=4.75');
 
 
         counterTimeline.to('.count', {
-            duration: 2.75,
+            duration: 4.75,
             ease: 'linear',
             onUpdate: () => {
                 const value = Math.round(counterTimeline.progress() * 100);
