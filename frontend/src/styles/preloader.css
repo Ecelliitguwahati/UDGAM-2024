@@ -42,7 +42,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
     padding: 0;
     z-index: 3;
     top: -80px;
@@ -56,13 +56,21 @@
 }
 .ProgressBar{
     height: 23px;
-    margin-top: 1px;
-    /* margin-left: 1px; */
-    
+    /* margin-top: 1px; */
+    /* margin-left: -60vw; */
+    padding-top: 25px;
     border-radius: 5px;
     border: 0 ;
     background-color: #9779F5;
      
+}
+.countdiv{
+    width: 50vw;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
 }
 .count{
     font-family: 'Grtsk';
@@ -191,7 +199,7 @@
         margin-left: 0px;
         padding: 0;
         height: 400px;
-        width: 100vw;
+        width: 150vw;
         left: 0;
         border: none;
         margin-bottom: 0;
@@ -221,22 +229,30 @@
     }
     .ProgressBar{
         height: 23px;
-        margin-top: 1px;
-        margin-left: 1px;
+        /* margin-top: 1px;
+        margin-left: 1px; */
         width: 0px;
         border-radius: 5px;
         border: 0 ;
         background-color: #9779F5;
          
     }
+    .countdiv{
+        width: 90vw;
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+    }
     .count{
         font-family: 'Grtsk';
         font-size: 40px !important;
         font-weight: 900;
         position: relative;
-        top: -6rem;
+        /* top: -6rem; */
         font-size: 50px;
-        left: 19rem;
+        /* left: 19rem; */
         color: #9779F5;
         font-weight: 900;
         margin-left: 0px;

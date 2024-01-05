@@ -254,4 +254,12 @@
     .moduledetails:hover .modulename{
         transform: translateY(10px);
     }
+    .managerlist{
+        font-size: 12px;
+        top: -10rem;
+    }
+    .manager{
+        font-size: 24px;
+        top: -8rem;
+    }
 }
