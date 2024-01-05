@@ -19,13 +19,13 @@ export const Home = () => {
         // Disable scrolling during animation
         document.body.style.overflow = 'hidden';
         // Hide the content until the animation is complete
-        document.querySelector('.whIsUdg').style.visibility = 'hidden';
+        // document.querySelector('.whIsUdg').style.visibility = 'hidden';
 
         const animationTimeout = setTimeout(() => {
             setAnimationComplete(true);
             // Enable scrolling after animation is complete
             document.body.style.overflow = 'visible';
-            document.querySelector('.whIsUdg').style.visibility = 'visible';
+            // document.querySelector('.whIsUdg').style.visibility = 'visible';
         }, 7000);
 
         // Clear the timeout to prevent memory leaks
@@ -33,7 +33,7 @@ export const Home = () => {
             clearTimeout(animationTimeout);
             // Ensure scrolling is re-enabled in case the component unmounts before the animation completes
             document.body.style.overflow = 'visible';
-            document.querySelector('.whIsUdg').style.visibility = 'visible';
+            // document.querySelector('.whIsUdg').style.visibility = 'visible';
         };
     }, []);
 
