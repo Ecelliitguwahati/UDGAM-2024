@@ -243,7 +243,7 @@
     right: -55rem;
 }
 #if{
-    background-image: url( '../images/events/bg/if bg.svg');
+    background-image: url( '../images/events/bg/if bg-min.png');
     color: white;
 }
 
@@ -284,51 +284,51 @@
     color: white !important;
 }
 #ls{
-    background-image: url( '../images/events/bg/ls bg.svg');
+    background-image: url( '../images/events/bg/ls bg-min.png');
     color: black;
 }
 #expo{
-    background-image: url( '../images/events/bg/sexpo bg.svg');
+    background-image: url( '../images/events/bg/sexpo bg-min.png');
     color:white;
 }
 #pmx{
-    background-image: url( '../images/events/bg/pmx bg.svg');
+    background-image: url( '../images/events/bg/pmx bg-min.png');
     color: black;
 }
 
 #encode{
-    background-image: url( '../images/events/bg/encode bg.svg');
+    background-image: url( '../images/events/bg/encode bg-min.png');
     color: white;
 }
 #disrupt{
-    background-image: url('../images/events/bg/disrupt bg.svg');
+    background-image: url('../images/events/bg/disrupt bg-min.png');
     color: white;
 }
 #ned{
-    background-image: url('../images/events/bg/ned bg.svg');
+    background-image: url('../images/events/bg/ned bg-min.png');
     color:black;
 }
 #nec{
-    background-image: url('../images/events/bg/nec bg.svg');
+    background-image: url('../images/events/bg/nec bg-min.png');
     color: white;
 }
 #dframe{
-    background-image: url('../images/events/bg/dframe bg.svg');
+    background-image: url('../images/events/bg/dframe bg-min.png');
     color:black;
 }
 #fun{
-    background-image: url('../images/events/bg/fun bg.svg');
+    background-image: url('../images/events/bg/fun bg-min.png');
     color: black;
     
 }
 
 
 #sparkle{
-    background-image: url('../images/events/bg/sparkle bg.svg');
+    background-image: url('../images/events/bg/sparkle bg-min.png');
     color:black;
 }
 #linkedin{
-    background-image: url('../images/events/bg/linkedin bg.svg');
+    background-image: url('../images/events/bg/linkedin bg-min.png');
     color: white;
 }
 /* .scene1{
@@ -338,7 +338,7 @@
     z-index: -1;
 } */
 /*.tags-encode{
-    background-image: url("/images/events/logo/encode.png");
+    background-image: url("/images/events/logo/encode-min.png");
 }*/
 
 @media screen and (max-width: 600px){
@@ -438,15 +438,15 @@
 
 /* bg images */
 .ned{
-    background-image: url("../images/events/bg/ned bg.svg");
+    background-image: url("../images/events/bg/ned bg-min.png");
 }
 
 .disrupt{
-    background-image: url("../images/events/bg/disrupt bg.svg");
+    background-image: url("../images/events/bg/disrupt bg-min.png");
 }
 
 .sexpo{
-    background-image: url("../images/events/bg/sexpo bg.svg");
+    background-image: url("../images/events/bg/sexpo bg-min.png");
 }
 
 .ned .eventname, .ned .eventdesc1, .ned .eventdesc2{
