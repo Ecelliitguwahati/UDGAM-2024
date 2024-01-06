@@ -55,8 +55,8 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr; 
     gap: 2rem;
-    margin-left: 10rem;
-    margin-right: 12rem;
+    margin-left: 2%;
+    margin-right: 2%;
     
 }
 
@@ -71,7 +71,7 @@
 
 .eventgrid div{
     height: 474px;
-    width: 385px;
+    width: 30vw;
     background-color:rgba(206, 197, 236, 0.5);
 }
 
