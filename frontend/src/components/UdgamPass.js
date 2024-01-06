@@ -3,7 +3,7 @@ import UDGAM24Purp from '../images/UDGAM24Purp.png';
 import '../styles/Udgam.css'
 import '../styles/UdgamPass.css'
 import arrow from '../images/pass line.svg'
-import arrowlonger from '../images/pass line longer.svg'
+import arrowlonger from '../images/pass line long.svg'
 import arrow1 from '../images/Vector 142.png'
 import arrow2 from '../images/Vector 143.png'
 import arrow3 from '../images/Vector 144.png'

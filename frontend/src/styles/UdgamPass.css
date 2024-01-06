@@ -50,7 +50,7 @@
     border: 3px solid #9779F5;
     border-radius: 10px;
     padding: 12px;
-    margin: 5%;
+    margin: 2%;
     z-index: 4;
 }
 
@@ -92,7 +92,7 @@
     /* position: relative;
     top: 20vh;
     right: 14vw; */
-    width: 24vw;
+    width: 18vw;
 }
 
 .b1,.b2,.b3,.b4{
