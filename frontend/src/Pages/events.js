@@ -14,6 +14,7 @@ import fun from "../images/events/logo/fun.png";
 import linkedin from "../images/events/logo/linkedin.png";
 import sparkle from "../images/events/logo/sparkle.png";
 import nec from "../images/events/logo/nec.png";
+import idearush from "../images/events/logo/idearush.png";
 import openidea from "../images/events/logo/openidea.png";
 // import headset from "../images/VR Headset Purp.svg";
 // import puzzle1 from "../images/Puzzle1 Blue.svg";
@@ -184,14 +185,26 @@ export const Events = () => {
                     <p className="eventname">Open Idea Challenge</p>
                     <p className="eventdesc1">IITG TIC-IDEX</p>
                     <p className="eventdesc2">Submit your startup ideas in
-                    defence, aerospace, AI, quantum tech, and more. Engage with the military, and showcase your tech.</p>
+                    defence, aerospace, AI, quantum tech, and more. Engage with the military, and showcase your tech. 
+                    <br/>
+                    <a href="https://unstop.com/competitions/open-idea-challenge-udgam-2024-iit-guwahati-856489" target='_blank'><b>Register here</b></a>
+                    </p>
                     
                 </div>
-                <div className="tags" id="linkedin">
+                {/* <div className="tags" id="linkedin">
                     <img src={linkedin} alt="LinkedIn" className="eventimg" />
                     <p className="eventname">LinkedIn Workshop</p>
                     <p className="eventdesc1">Comprehensive guide with industry experts</p>
                     <p className="eventdesc2">Boost your professional skills and network with top industry leaders at the LinkedIn workshop to get mentored from National and International LinkedIn Coaches and Strategist.</p>
+                    
+                </div> */}
+                <div className="tags" id="linkedin">
+                    <img src={idearush} alt="LinkedIn" className="eventimg" />
+                    <p className="eventname">Idea Rush</p>
+                    <p className="eventdesc1">Hackathon to elevate Automation Industry</p>
+                    <p className="eventdesc2">A Hackathon inviting innovative ideas from students to redefine smart ergonomic solutions, conferencing rooms, and future skills education.
+                    <br/>
+                    <a href="https://unstop.com/hackathons/idea-rush-udgam-2024-iit-guwahati-859323" target='_blank'><b>Register here</b></a></p>
                     
                 </div>
                 <div className="tags" id="sparkle">
