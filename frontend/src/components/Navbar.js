@@ -84,7 +84,7 @@ const Navbar = () => {
         }}>About us</NavLink>
 
         {/* <img src={logo} alt="Logo" /> */}
-        <NavLink className="BuyPass" to="/BuyPass">
+        <NavLink className="BuyPass" to="https://unstop.com/p/udgam24-registration-pass-udgam-2024-iit-guwahati-860431">
           <img src={Pass} alt="Buy pass" />
         </NavLink>
       </div>

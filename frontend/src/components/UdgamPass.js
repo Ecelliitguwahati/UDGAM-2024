@@ -69,7 +69,7 @@ const Udgam = () => {
                     </div>
                 </div>
                 <div className="tilt">
-                    <a href='/BuyPass' className="tilt__content">
+                    <a href='https://unstop.com/p/udgam24-registration-pass-udgam-2024-iit-guwahati-860431' className="tilt__content">
                         <img src={UdgamPass} alt="UDGAM24Purp"/>
                     </a>
                 </div>
