@@ -78,9 +78,9 @@ const Udgam = () => {
                     </div>
                 </div>
                 <div className="tilt">
-                    <a href='https://unstop.com/p/udgam24-registration-pass-udgam-2024-iit-guwahati-860431' target='_blank' className="tilt__content">
+                    {/* <a href='https://unstop.com/p/udgam24-registration-pass-udgam-2024-iit-guwahati-860431' target='_blank' className="tilt__content"> */}
                         <img src={UdgamPass} alt="UDGAM24Purp"/>
-                    </a>
+                    {/* </a> */}
                 </div>
                 <div className="benefitright">
                     <div className="b3">
