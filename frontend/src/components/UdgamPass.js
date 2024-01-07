@@ -49,6 +49,7 @@ const Udgam = () => {
             <div className='platformdiv'>
                 <img src={platformMobile} alt="platform" className='platform'/>
             </div>
+            <div className="buypasstitle">Buy Pass</div>
             <div className="price">
                 <div className="priceleft">
                     <p className='pricelefttitle'>Grab your UDGAM'24 Pass now at just <span className='coupon'>Rs. 199</span></p>
