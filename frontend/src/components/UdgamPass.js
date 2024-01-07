@@ -49,12 +49,20 @@ const Udgam = () => {
             <div className='platformdiv'>
                 <img src={platformMobile} alt="platform" className='platform'/>
             </div>
+            <div className="price">
+                <div className="priceleft">
+                    <p className='pricelefttitle'>Grab your UDGAM'24 Pass now at just <span className='coupon'>Rs. 199</span></p>
+                </div>
+                <div className="priceright">
+                    <div className='pricerighttitle'>Use Coupon Code: <span className='coupon'>EARLYBIRD</span></div> 
+                </div>
+            </div>
             <div className="UdgamPass">
                 <div className="benefitleft">
                     <div className="b1">
                         <div className='benefit1'>
                         <p className='benefittitle'>Lecture Series</p>  
-                            <p className='benefitdesc'>Entry to a series of lectures, workshops and panel discussions by top entrepreneurs like Ashneer Grover, Narayan Murthy and many more.</p>
+                            <p className='benefitdesc'>Entry to a series of lectures, workshops and panel discussions by top entrepreneurs.</p>
                         </div>
                         <img src={arrowlonger} alt="arrow1" className='arrow1'/>
                     </div>
@@ -69,7 +77,7 @@ const Udgam = () => {
                     </div>
                 </div>
                 <div className="tilt">
-                    <a href='https://unstop.com/p/udgam24-registration-pass-udgam-2024-iit-guwahati-860431' className="tilt__content">
+                    <a href='https://unstop.com/p/udgam24-registration-pass-udgam-2024-iit-guwahati-860431' target='_blank' className="tilt__content">
                         <img src={UdgamPass} alt="UDGAM24Purp"/>
                     </a>
                 </div>
@@ -79,16 +87,16 @@ const Udgam = () => {
                         <div className='benefit3'>
                         <p className='benefittitle'>Intern Fair</p>
                             <p className='benefitdesc'>
-                                An exclusive opportunity for first and second year IIT Guwhati students</p>
+                                An exclusive opportunity for first and second year IIT Guwahati students.</p>
                         </div>
                     </div>
                     <div className="b4">
                         <img src={arrowlonger} alt="arrow4" className='arrow4'/>
                         <div className='benefit4'>
                             <p className='benefittitle'>
-                                Coupons and Goodies</p>  
+                                Exclusive perks</p>  
                             <p className='benefitdesc'>
-                                Exclusive coupons and goodies for all pass holders from our partners</p>
+                                Coupons and goodies for all pass holders from our partners.</p>
                         </div>
                     </div>
                 </div>

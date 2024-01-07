@@ -44,7 +44,7 @@ const Navbar = () => {
         <NavLink to="/About_us" onClick={handleClick} >Our Team</NavLink>
 
         {/* <img src={logo} alt="Logo" /> */}
-        <NavLink className="BuyPass" to="/BuyPass" onClick={handleClick}>
+        <NavLink className="BuyPass" to="https://unstop.com/p/udgam24-registration-pass-udgam-2024-iit-guwahati-860431" target="_blank" onClick={handleClick}>
           <img src={Pass} alt="Buy pass" />
         </NavLink>
         </ul>
