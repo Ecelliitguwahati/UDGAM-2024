@@ -14,6 +14,7 @@ import fun from "../images/events/logo/fun.png";
 import linkedin from "../images/events/logo/linkedin.png";
 import sparkle from "../images/events/logo/sparkle.png";
 import nec from "../images/events/logo/nec.png";
+import openidea from "../images/events/logo/openidea.png";
 // import headset from "../images/VR Headset Purp.svg";
 // import puzzle1 from "../images/Puzzle1 Blue.svg";
 // import screwpurp from "../images/Screw Purp.svg";
@@ -171,11 +172,19 @@ export const Events = () => {
                     <p className="eventdesc2">Encode is a development hackathon where you will be provided with a real-life problem and you have to devise a feasible solution that caters to everyone's needs be it the users or the market.</p>
                     
                 </div> 
-                <div className="tags" id="fun">
+                {/* <div className="tags" id="fun">
                     <img src={fun} alt="Fun Events" className="eventimg" />
                     <p className="eventname">Fun Events</p>
                     <p className="eventdesc1">Unleasing Thrills of Entrepreneurship</p>
                     <p className="eventdesc2">UDGAM is not only about boring learning and teaching. We also organize various fun events such as Stonks 11, IPL Auction, Monopoly, Split & Steal, Campus Sharks etc.</p>
+                    
+                </div> */}
+                <div className="tags" id="fun">
+                    <img src={openidea} alt="Fun Events" className="eventimg" />
+                    <p className="eventname">Open Idea Challenge</p>
+                    <p className="eventdesc1">IITG TIC-IDEX</p>
+                    <p className="eventdesc2">Submit your startup ideas in
+                    defence, aerospace, AI, quantum tech, and more. Engage with the military, and showcase your tech.</p>
                     
                 </div>
                 <div className="tags" id="linkedin">

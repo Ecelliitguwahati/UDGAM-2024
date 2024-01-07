@@ -72,7 +72,7 @@
 .eventgrid div{
     height: 474px;
     width: 30vw;
-    background-color:rgba(206, 197, 236, 0.5);
+    /* background-color:rgba(206, 197, 236, 0.5); */
 }
 
 .sponsortags{
@@ -211,7 +211,7 @@
     font-family: 'Grtsk';
     /* opacity: 0; */
 }
-.eventgrid div:hover {
+/* .eventgrid div:hover {
     filter: blur(4px);
 }
 
@@ -221,7 +221,7 @@
 .eventgrid div:hover,
 .eventgrid:hover div:hover {
     filter: blur(0);
-}
+} */
 .headset{
     position: relative;
     bottom: -40rem;
