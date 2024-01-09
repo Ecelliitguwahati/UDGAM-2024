@@ -20,7 +20,7 @@
     height: 90%;
     z-index: 1;
     object-fit: fill;
-    
+
     
   }
 
@@ -36,6 +36,9 @@
     border: none;
     margin-bottom: 0;
     object-fit: cover;
+}
+.udgamphoto{
+    display: none;
 }
 .loading{
     height: 25px;
@@ -192,7 +195,7 @@
     .backgroundvideo {
         display: none; 
       }
-    .UDGAM{
+    /* .UDGAM{
         position: relative;
         top: 6rem;  
         z-index: 0;
@@ -204,6 +207,17 @@
         border: none;
         margin-bottom: 0;
         object-fit: cover;
+    } */
+    .UDGAM{
+        display: none;
+    }
+    .udgamphoto{
+        display:inline;
+        height: 400px;
+        width: 350px;
+        position: relative;
+        z-index: 0;
+        top: -110px;
     }
     .screw1,
     .screw2,

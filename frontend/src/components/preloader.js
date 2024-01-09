@@ -8,6 +8,7 @@ import { useState,useEffect } from 'react';
 import {gsap,CSSPlugin} from 'gsap';
 import udgamvideo from '../images/platform loop_VP9.webm'
 import UdgamPass from '../images/UdgamPass.png'
+import udgamphoto from '../images/UDGAM24 Purp.svg'
 gsap.registerPlugin(CSSPlugin);
 
 
@@ -55,6 +56,7 @@ export const Preloader =()=>{
         gsap.set('.screw1',{y:400,display:'none'});
         gsap.set('.screw2',{y:650,display:'none'});
         gsap.set('.arrow',{y:650,display:'none'});
+        gsap.set('.udgamphoto',{y:170});
         // gsap.set('.tilts',{opacity:0});
         // gsap.set('.box1',{opacity:0,y:150,display:'none'});
         // gsap.set('.box2',{opacity:0,y:150,display:'none'});
@@ -77,7 +79,10 @@ export const Preloader =()=>{
                 
                 
         //Animation for video and ProgressBar
-        timeline.to(video1,{onStart: () => video1.play()})
+        timeline.to(video1,{onStart: () => {
+                    video1.play();
+                    video1.playbackRate=0.6;
+                }})
                 .to('.ProgressBar', { width: mediaQuery.matches ? '90vw' : '50vw', duration: 4.75, ease: 'linear' })
                 .to('.count', { opacity: 1, duration: 1, ease: 'linear'},'-=4.75')
                 .add(counterTimeline,'-=4.75');
@@ -97,7 +102,8 @@ export const Preloader =()=>{
             const elementsToRemove = document.querySelectorAll('.loading, .ProgressBar, .count');
             elementsToRemove.forEach((element) => element.remove());
           },});
-        timeline.to(video1,(mediaQuery.matches?{scale:1,duration:1,y:-200}:{scale:0.8,duration:1,y:-150}));
+        timeline.to(video1,(mediaQuery.matches?{}:{scale:0.8,duration:1,y:-150}));
+        // timeline.to('.udgamphoto',(mediaQuery.matches?{y:-50}:{}));
         timeline.to('.navbar',{opacity:1,duration: 0.5,y:0});
         timeline.to('.preloader',(mediaQuery.matches?{height:"20vh"}:{}),"-=0.5");
         timeline.to('.backgroundvideo',{y:20},'-=1');
@@ -127,6 +133,7 @@ export const Preloader =()=>{
         <div className="preloader">
             <video src ={udgamvideo} type="video/webm" alt='video' className='backgroundvideo' autoPlay muted loop></video>
             <video src ={logo} alt='Udgam' type="video/webm" className='UDGAM' muted ></video>
+            <img src={udgamphoto} alt="udgamphoto" className="udgamphoto" />
             <img src={Keyboard} alt='keyboard' className='keyboard'></img>
             <img src={Screw} alt='screw1' className='screw1'></img>
             <img src={Screw} alt='screw2' className='screw2'></img>
