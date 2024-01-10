@@ -17,7 +17,7 @@ const Merchandise = () => {
                 <img src={merch} alt="merch" className='merchimg'/>
             </div>
             <div className="want">
-            <a href='https://forms.gle/9KsquXS89S74aH8n8' className="wantMerch" target='_blank' rel='noreferrer'>I want them !</a>
+            <a href='https://forms.gle/VAKTxnEAqPPtZPYU9' className="wantMerch" target='_blank' rel='noreferrer'>I want them !</a>
             <img className="Arrowhead" src={ArrowHead} alt="Logo" />
             </div>
             
