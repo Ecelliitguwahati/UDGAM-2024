@@ -121,8 +121,9 @@ export const Events = () => {
                     <img src={internfair} alt="internfair" className="eventimg" />
                     <p className="eventname">Intern Fair</p>
                     <p className="eventdesc1">Your Gateway to Internships</p>
-                    <p className="eventdesc2">An exclusive event for IIT Guwahati peeps, InternFair brings internship opportunities to students in various profiles like Software Development, Analytics, Product Management, and many more..</p>
-                    
+                    <p className="eventdesc2">An exclusive event for IIT Guwahati peeps, InternFair brings internship opportunities to students in various profiles like Software Development, Analytics, Product Management, and many more..
+                    <br/>
+                    <a href="https://internfair.udgamiitg.com/" target='_blank' className='eventslink'><b>Register here</b></a></p>
                 </div>
                 <div className="tags" id="ls">
                     <img src={lecseries} alt="lecture series" className="eventimg" />
@@ -187,7 +188,7 @@ export const Events = () => {
                     <p className="eventdesc2">Submit your startup ideas in
                     defence, aerospace, AI, quantum tech, and more. Engage with the military, and showcase your tech. 
                     <br/>
-                    <a href="https://unstop.com/competitions/open-idea-challenge-udgam-2024-iit-guwahati-856489" target='_blank'><b>Register here</b></a>
+                    <a href="https://unstop.com/competitions/open-idea-challenge-udgam-2024-iit-guwahati-856489" target='_blank' className='eventslink'><b>Register here</b></a>
                     </p>
                     
                 </div>
@@ -204,7 +205,7 @@ export const Events = () => {
                     <p className="eventdesc1">Hackathon to elevate Automation Industry</p>
                     <p className="eventdesc2">A Hackathon inviting innovative ideas from students to redefine smart ergonomic solutions, conferencing rooms, and future skills education.
                     <br/>
-                    <a href="https://unstop.com/hackathons/idea-rush-udgam-2024-iit-guwahati-859323" target='_blank'><b>Register here</b></a></p>
+                    <a href="https://unstop.com/hackathons/idea-rush-udgam-2024-iit-guwahati-859323" target='_blank' className='eventslink'><b>Register here</b></a></p>
                     
                 </div>
                 <div className="tags" id="sparkle">

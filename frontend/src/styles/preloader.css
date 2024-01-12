@@ -14,20 +14,39 @@
 }
 .backgroundvideo {
     position: absolute;
-    top: 100px;
+    top: 20vh;
     left: 0;
     width: 100%;
     height: 90%;
     z-index: 1;
-    object-fit: fill;
-    
-    
-  }
+    object-fit: fill; 
+}
+.nabard{
+    display: inline-block;
+    position: relative;
+    z-index: 3;
+    width: 10%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+    top: 0rem;
+    padding: 0;
+}
+.nabardp{
+    display: inline-block;
+    position: relative;
+    z-index: 3;
+    font-size: 12px;
+    font-family: "Grtsk";
+    font-weight: 400;
+    top: -0.75rem;
+    padding: 0;
 
+}
 .UDGAM{
     position: relative;
-    top: 1.8rem;  
-    z-index: 0;
+    top: -5rem;  
+    z-index: 2;
     margin-left: 0px;
     padding: 0;
     height: 400px;
@@ -37,6 +56,9 @@
     margin-bottom: 0;
     object-fit: cover;
 }
+.udgamphoto{
+    display: none;
+}
 .loading{
     height: 25px;
     position: relative;
@@ -45,7 +67,7 @@
     align-items: flex-start;
     padding: 0;
     z-index: 3;
-    top: -80px;
+    top: -200px;
     border-radius: 10px;
     border:5px solid #9779F5;
     background-color: white;
@@ -186,13 +208,13 @@
 @media screen and (max-width: 600px){
     .preloader{
         
-        height: 80vh;
+        height: 85vh;
         
     }
     .backgroundvideo {
         display: none; 
       }
-    .UDGAM{
+    /* .UDGAM{
         position: relative;
         top: 6rem;  
         z-index: 0;
@@ -204,6 +226,39 @@
         border: none;
         margin-bottom: 0;
         object-fit: cover;
+    } */
+    .nabard{
+        display: inline-block;
+        position: relative;
+        z-index: 3;
+        width: 30%;
+        aspect-ratio: 3/2;
+        object-fit: contain;
+        mix-blend-mode: color-burn;
+        top: 0rem;
+        padding: 0;
+    }
+    .nabardp{
+        display: inline-block;
+        position: relative;
+        z-index: 3;
+        font-size: 16px;
+        font-family: "Grtsk";
+        font-weight: 400;
+        top: -0.75rem;
+        padding: 0;
+    
+    }
+    .UDGAM{
+        display: none;
+    }
+    .udgamphoto{
+        display:inline;
+        height: 400px;
+        width: 350px;
+        position: relative;
+        z-index: 0;
+        top: -13rem;
     }
     .screw1,
     .screw2,
@@ -217,7 +272,7 @@
         /* width: 280px; */
         padding: 0;
         z-index: 3;
-        top: -50px;
+        top: -11rem;
         border-radius: 10px;
         border:5px solid #9779F5;
         background-color: white;

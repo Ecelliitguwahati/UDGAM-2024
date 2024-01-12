@@ -47,7 +47,7 @@ export const Home = () => {
                     <Events />
                     <Speakerspage />
                     <Merchandise />
-                    {/* <Sponsers /> */}
+                    <Sponsers />
                     {/* <FAQs /> */}
                 </>
             {/* )} */}

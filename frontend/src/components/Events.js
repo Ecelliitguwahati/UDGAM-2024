@@ -5,6 +5,7 @@ import mike from "../images/Mike1.svg";
 import ned from "../images/events/logo/ned.png";
 import disrupt from "../images/events/logo/disrupt.png";
 import sexpo from "../images/events/logo/sexpo.png";
+import internfair from "../images/events/logo/if.png";
 
 const Events = () => {
     useEffect(() => {
@@ -61,12 +62,13 @@ const Events = () => {
                 <a href="/Events" className="more-events">View all Events</a>
             </div>
             <div className="eventgrid-home">
-                <div className="tags ned">
-                    <img src={ned} alt="mike" className="eventimg" />
-                    <p className="eventname">NED</p>
-                    <p className="eventdesc1">National Entrepreneurship Drive</p>
-                    <p className="eventdesc2">National Entrepreneurship Drive is our latest initiative where we aim to promote the entrepreneur environment and startup urge by helping institutes of India set up their own Entrepreneurship Cells in their institutes.</p>
-                    
+                <div className="tags" id="if">
+                    <img src={internfair} alt="internfair" className="eventimg" />
+                    <p className="eventname">Intern Fair</p>
+                    <p className="eventdesc1">Your Gateway to Internships</p>
+                    <p className="eventdesc2">An exclusive event for IIT Guwahati peeps, InternFair brings internship opportunities to students in various profiles like Software Development, Analytics, Product Management, and many more..
+                    <br/>
+                    <a href="https://internfair.udgamiitg.com/" target='_blank' className='eventslink'><b>Register here</b></a></p>
                 </div>
                 <div className="tags disrupt">
                     <img src={disrupt} alt="mike" className="eventimg" />
