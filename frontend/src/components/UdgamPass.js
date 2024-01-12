@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import UDGAM24Purp from '../images/UDGAM24Purp.png'; 
 import '../styles/Udgam.css'
 import '../styles/UdgamPass.css'
+import '../styles/events.css'
 import arrow from '../images/pass line.svg'
 import arrowlonger from '../images/pass line long.svg'
 import arrow1 from '../images/Vector 142.png'
@@ -52,10 +53,10 @@ const Udgam = () => {
             <div className="buypasstitle">Buy Pass</div>
             <div className="price">
                 <div className="priceleft">
-                    <p className='pricelefttitle'>Grab your UDGAM'24 Pass now at just <span className='coupon'>Rs. 199</span></p>
+                    <p className='pricelefttitle'>Grab your UDGAM'24 Pass now at just <span className='coupon'>Rs. 160</span></p>
                 </div>
                 <div className="priceright">
-                    <div className='pricerighttitle'>Use Coupon Code: <span className='coupon'>EARLYBIRD</span></div> 
+                    <div className='pricerighttitle'>Use Coupon Code: <span className='coupon'>DARE2INNOV8</span></div> 
                 </div>
             </div>
             <div className="UdgamPass">
@@ -102,6 +103,9 @@ const Udgam = () => {
                     </div>
                 </div>
             </div> 
+            <div className="passbtn">
+            <a href="https://unstop.com/p/udgam24-registration-pass-udgam-2024-iit-guwahati-860431" target="_blank" className="more-events">Buy Pass</a>
+            </div>
         </div>
      );
 }
