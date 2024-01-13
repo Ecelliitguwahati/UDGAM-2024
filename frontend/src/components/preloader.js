@@ -108,7 +108,7 @@ export const Preloader =()=>{
             elementsToRemove.forEach((element) => element.remove());
           },});
         // timeline.to('.udgamphoto',(mediaQuery.matches?{y:-180}:{}));
-        timeline.to(video1,(mediaQuery.matches?{}:{scale:0.5,duration:1,y:-90}));  
+        timeline.to(video1,(mediaQuery.matches?{}:{scale:0.5,duration:1,y:-60}));  
         timeline.to('.nabard',{opacity:1,display:1},"-=1");
         timeline.to('.nabardp',{opacity:1,display:1},"-=1");
         // timeline.to('.udgamphoto',(mediaQuery.matches?{y:-50}:{}));
