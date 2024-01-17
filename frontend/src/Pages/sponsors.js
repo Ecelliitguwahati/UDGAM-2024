@@ -23,7 +23,7 @@ import thinknow from "../images/sponsors/thinknow.jpeg"
 import youth from "../images/sponsors/youth.png"
 import assamtribune from "../images/sponsors/assamtribune.jpeg"
 import justassamthings from "../images/sponsors/justassamthings.png"
-import techstory from "../images/sponsors/techstory.jpeg"
+import techstory from "../images/sponsors/techstory.webp"
 import startupnews from "../images/sponsors//startupnewsfyi.png"
 import khashkhabar from "../images/sponsors/khashkhabar.png"
 import campustimes from "../images/sponsors/Campustimes.png"
@@ -298,11 +298,6 @@ export const Sponsors=()=>{
                     <img src={vizag} alt="mike" className="sponsorimg" />
                     <p className="sponsorname">Vizag Startups</p>
                     <p className="sponsordesc">Disrupt Partner</p>
-                </div>
-                <div className="sponsortags">
-                    <img src={tobehonest} alt="mike" className="sponsorimg" />
-                    <p className="sponsorname">TobeHonest</p>
-                    <p className="sponsordesc">Crunchies Partner</p>
                 </div>
 
             </div>
